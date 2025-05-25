@@ -4,17 +4,17 @@ using project.Models;
 
 namespace project.Services;
 
-public class AuthorServiceJson : ServiceJson<Author>
+public class AuthorServiceJson : ServiceUserJson<Author>
 {
 
 private readonly CurrentUserService user;
 
-private readonly IService<Book> bookService;
+//private readonly IService<Book> bookService;
 
-    public AuthorServiceJson(IHostEnvironment env ,IService<Book> bookService, CurrentUserService currentUserService) : base(env)
+    public AuthorServiceJson(IHostEnvironment env , CurrentUserService currentUserService) : base(env)
     {
         user = currentUserService;
-        this.bookService = bookService;
+      //  this.bookService = bookService;
        
         
     }
@@ -163,17 +163,17 @@ private readonly IService<Book> bookService;
             if(author != null)
             {
                 MyList.Remove(author);
-                deleteAuthorsItem(author.Name);
+               // deleteAuthorsItem(author.Name);
                 saveToFile();
                 return true;
             }
         }
         return false; // Unauthorized
     }
-    public void deleteAuthorsItem(string authorName){
-        System.Console.WriteLine("deleteAuthorsItem function called");
-        var authorsBooks = bookService.Get();
-        authorsBooks.RemoveAll(b => b.Author == authorName && bookService.Delete(b.Id));
+    // public void deleteAuthorsItem(string authorName){
+    //     System.Console.WriteLine("deleteAuthorsItem function called");
+    //     var authorsBooks = bookService.Get();
+    //     authorsBooks.RemoveAll(b => b.Author == authorName && bookService.Delete(b.Id));
         
-    }
+    // }
 }

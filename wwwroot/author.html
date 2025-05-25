@@ -8,15 +8,24 @@
 </head>
 
 <body>
-    <h1>Author CRUD</h1>
-   
-    <a href="book.html">Books</a>
-    <br/>
-   
-    <button onclick="logoutUser()">Logout</button>
+    <header>
+        <h1>Author CRUD</h1>
 
-    <button onclick="showAddUserForm()" style="display:none;" id="showAddUserFormBtn">Add Author</button>
-    
+        <a href="book.html">Books</a>
+    </header>
+    <br />
+
+   
+    <div id="navigation" style="display: none;">
+        <h2>Navigation</h2>
+        <ul>
+            <li><a href="author.html">Users</a></li>
+            <li><a href="book.html">Books</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+    </div>
+    <button onclick="logoutUser()">Logout</button>
+    <button onclick="showAddUserForm()" id="addFormBtn"  style="display:none;">הוסף סופר</button>
     <div id="addForm" style="display:none;">
         <h3>Add Author</h3>
         <form action="javascript:void(0);" method="POST" onsubmit="addUser()">
@@ -32,32 +41,32 @@
             <input type="text" id="add-address" placeholder="Address" required>
             <input type="date" id="add-birthdate" placeholder="Birth Date" required>
             <input type="submit" value="Add Author">
-            <button type="button" onclick="hideAddUserForm()">Cancel</button> 
+            <button type="button" onclick="hideAddUserForm()">Cancel</button>
         </form>
     </div>
-    <br/>
-   
+    <br />
+
     <button onclick="filterAuthorsByName()">סנן</button>
-    <button onclick="clearFilter()">נקה סינון</button> 
+    <button onclick="clearFilter()">נקה סינון</button>
     <input type="text" id="filter-input" placeholder="הכנס אותיות לסינון" />
 
     <div id="editForm" style="display:none;">
         <h3>Edit Author</h3>
         <form action="javascript:void(0);" onsubmit="updateUser()">
             <input type="hidden" id="edit-id">
-            
+
             <label for="edit-name">Name:</label>
             <input type="text" id="edit-name" required>
-            
+
             <label for="edit-password">Password:</label>
             <input type="text" id="edit-password" required>
-            
+
             <label for="edit-address">Address:</label>
             <input type="text" id="edit-address" required>
-            
+
             <label for="edit-birthdate">Birth Date:</label>
             <input type="date" id="edit-birthdate" required>
-            
+
             <input type="submit" value="Save Changes">
             <a onclick="closeInput()" aria-label="Close">&#10006;</a>
         </form>
@@ -66,7 +75,7 @@
     <table>
         <tr>
             <th>Name</th>
-            <th>Password</th>   
+            <th>Password</th>
             <th>Address</th>
             <th>Birth Date</th>
             <th></th>
@@ -74,15 +83,16 @@
         </tr>
         <tbody id="authors"></tbody>
     </table>
-
+    <script src="js/utils.js" asp-append-version="true"></script>
     <script src="js/login.js" asp-append-version="true"></script>
-    <script  src="js/authors.js" asp-append-version="true"> </script>
+    <script src="js/authors.js" asp-append-version="true"> </script>
     <script type="text/javascript">
-        
-        document.addEventListener('DOMContentLoaded', function() {
+
+        document.addEventListener('DOMContentLoaded', function () {
             getUsers();
-            if(getUserRoleFromToken() == "Admin"){
-                document.getElementById("showAddUserFormBtn").style.display = "block";
+            if (getUserRoleFromToken() == "Admin") {
+                document.getElementById("addFormBtn").style.display = "block";
+                document.getElementById("Navigation").style.display = "block";
             }
         });
     </script>

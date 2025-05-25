@@ -11,9 +11,9 @@ using project.Models;
 namespace project.Services;
 
 
-public abstract class ServiceJson<T> : GetFuncService<T>, IService<T> where T : IGeneric 
+public abstract class ServiceUserJson<T> : GetFuncService<T>, IService<T> where T : IGeneric 
 {
-    public ServiceJson(IHostEnvironment env) : base(env)
+    public ServiceUserJson(IHostEnvironment env) : base(env)
     {
 
     }
@@ -48,13 +48,13 @@ public static class ServiceUtilities
 {
     public static void AddService(this IServiceCollection services)
     {
-        
-        services.AddScoped<IService<Book>, BookServiceJson>();
+         services.AddScoped<IServiceItems<Book>, BookServiceJson>();
+       // services.AddScoped<IService<Book>, BookServiceJson>();
         services.AddScoped<IService<Author>, AuthorServiceJson>();
         //  services.AddScoped<IHelpService<Book>, HelpService<Book>>();
         //   services.AddScoped<IHelpService<Author>, HelpService<Author>>();
         services.AddScoped<IService<Author>, AuthorServiceJson>();
-        services.AddScoped<IAuthentication<Author>, AuthenticationService<Author>>();
+       services.AddScoped<IAuthentication<Author>, AuthenticationService<Author>>();
         services.AddScoped<ILogin<Author>, LoginService<Author>>();
        // services.AddScoped<BookServiceJson, BookServiceJson>();
         services.AddScoped<CurrentUserService, CurrentUserService>();

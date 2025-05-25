@@ -2,33 +2,41 @@
   {
     "Id": 0,
     "Name": "\u05D9\u05E9\u05E8\u05D0\u05DC \u05DB\u05D4\u05DF",
+    "Password": "\u05D9\u05E9\u05E8\u05D0\u05DC \u05DB\u05D4\u05DF",
     "role": 1,
     "Address": "\u05E8\u05D7\u05D5\u05D1 \u05D4\u05D7\u05E1\u05D9\u05D3\u05D9\u05DD 1, \u05D9\u05E8\u05D5\u05E9\u05DC\u05D9\u05DD",
-    "BirthDate": "1980-01-01",
-    "Password": "\u05D9\u05E9\u05E8\u05D0\u05DC \u05DB\u05D4\u05DF"
+    "BirthDate": "1970-04-08"
   },
   {
     "Id": 1,
     "Name": "\u05DE\u05E0\u05D7\u05DD \u05E9\u05D8\u05D9\u05D9\u05E0\u05D1\u05E8\u05D2",
+    "Password": "\u05DE\u05E0\u05D7\u05DD \u05E9\u05D8\u05D9\u05D9\u05E0\u05D1\u05E8\u05D2",
     "role": 0,
     "Address": "\u05E9\u05D3\u05E8\u05D5\u05EA \u05D1\u05DF \u05D2\u05D5\u05E8\u05D9\u05D5\u05DF 12, \u05EA\u05DC \u05D0\u05D1\u05D9\u05D1",
-    "BirthDate": "1975-05-15",
-    "Password": "\u05DE\u05E0\u05D7\u05DD \u05E9\u05D8\u05D9\u05D9\u05E0\u05D1\u05E8\u05D2"
+    "BirthDate": "1975-05-15"
   },
   {
     "Id": 2,
     "Name": "\u05D7\u05D9\u05D9\u05DD \u05D2\u05D5\u05DC\u05D3\u05D1\u05E8\u05D2",
+    "Password": "\u05D7\u05D9\u05D9\u05DD \u05D2\u05D5\u05DC\u05D3\u05D1\u05E8\u05D2",
     "role": 0,
     "Address": "\u05E8\u05D7\u05D5\u05D1 \u05D4\u05E8\u05D1 \u05E7\u05D5\u05E7 3, \u05D1\u05E0\u05D9 \u05D1\u05E8\u05E7",
-    "BirthDate": "2000-03-22",
-    "Password": "\u05D7\u05D9\u05D9\u05DD \u05D2\u05D5\u05DC\u05D3\u05D1\u05E8\u05D2"
+    "BirthDate": "2000-03-22"
   },
   {
     "Id": 3,
     "Name": "\u05E9\u05E8\u05D4 \u05E4\u05E8\u05D9\u05D3\u05DE\u05DF",
+    "Password": "\u05E9\u05E8\u05D4 \u05E4\u05E8\u05D9\u05D3\u05DE\u05DF",
     "role": 1,
     "Address": "\u05E8\u05D7\u05D5\u05D1 \u05D4\u05E0\u05E6\u05D7 45, \u05E4\u05EA\u05D7 \u05EA\u05E7\u05D5\u05D5\u05D4",
-    "BirthDate": "1984-08-30",
-    "Password": "\u05E9\u05E8\u05D4 \u05E4\u05E8\u05D9\u05D3\u05DE\u05DF"
+    "BirthDate": "1984-08-30"
+  },
+  {
+    "Id": 4,
+    "Name": "Nechami",
+    "Password": "Nechami",
+    "role": 1,
+    "Address": "\u05E4\u05D5\u05E0\u05D5\u05D1\u05D9\u05E5\u0027 8",
+    "BirthDate": "2005-07-08"
   }
 ]

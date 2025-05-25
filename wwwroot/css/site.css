@@ -132,3 +132,8 @@ button:hover {
     width: 10vw;  
     max-width: 200px; 
 }
+
+header {
+    text-align: center; /* מרכז את התוכן בתוך ה-div */
+    margin: 20px 0; /* הוסף רווח מעל ומתחת ל-div */
+}

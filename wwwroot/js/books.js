@@ -1,97 +1,61 @@
-// // import { getCookie } from './utils.js';
+
 // const uri = '/book';
 // let books = [];
 // let userRole;
-// let userId ;
+// let userId;
 
 // function getCookie(name) {
 //     const value = `; ${document.cookie}`;
-//     console.log(document.cookie);
 //     const parts = value.split(`; ${name}=`);
 //     if (parts.length === 2) return parts.pop().split(';').shift();
-//     return null; // החזרת null אם הקוקי לא נמצא
+//     return null;
 // }
+
 // function getUserRoleFromToken() {
-//     const token = getCookie('authToken'); // שליפת הטוקן מהקוקי
+//     const token = token;
 //     if (!token) {
-//         return null; // או ערך ברירת מחדל אחר   
+//         return null;
 //     }
 
 //     const payLoad = token.split('.')[1];
-//     const deCodedPayLoad = JSON.parse(atob(payLoad)); // פענוח ה-payload והמרה לאובייקט
+//     const deCodedPayLoad = JSON.parse(atob(payLoad));
 //     let roleValue = null;
 //     for (let key in deCodedPayLoad){
 //         if(key.includes("role")){
 //             roleValue = deCodedPayLoad[key];
-//             console.log(roleValue+"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@");
-          
 //         }
 //         if(key.includes("id")){
 //             userId = deCodedPayLoad[key];
-//             console.log(userId+"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@");
-            
 //         }
 //     }
 
-//     return  roleValue; // החזרת התפקיד מהטוקן
+//     return roleValue;
 // }
 
 // function toggleAddBookForm(){
-    
 //     const addBookForm = document.getElementById('addBookForm');
-    
-//     console.log(addBookForm.style.display);
 //     if (addBookForm.style.display === 'block') {
 //         addBookForm.style.display = 'none';
 //     } else {
 //         addBookForm.style.display = 'block';
-//         const authorTextbox = document.getElementById("add-author");
-//         authorTextbox.innerHTML = userName;
 //     }
-   
-//     console.log(addBookForm.style.display);
 // }
-// // function editUserDetails(){
-// //     window.location.href = '/author.html';
-// //     // authorId = userId
-// //     // fetch(`/authors/${authorId}`, {
-// //     //     method: 'GET',
-// //     //     headers: {
-// //     //         'Authorization': `Bearer ${getCookie('authToken')}`, // שליפת הטוקן מהקוקי
-// //     //         'Accept': 'application/json',
-// //     //         'Content-Type': 'application/json'
-// //     //     },
-// //     //     credentials: 'include' // מאפשר שליחה של קוקיז עם הבקשה
-   
-// //     // })
-// //     // .then(response => {
-// //     //     if (response.status === 401) {
-// //     //         // הפנה לעמוד הלוגין
-// //     //         window.location.href = '/login.html';
-// //     //         }
-// //     //     return response.json();
-// //     // }).then(data => {
-// //     //     const authorTextbox = document.getElementById("add-author");
-// //     //     authorTextbox.innerHTML = data.name;
-// //     //     const
-// //     // })
-// // }
+
 // function getItems() {
-//     userRole = getUserRoleFromToken(); // שליפת התפקיד מהטוקן
+//     userRole = getUserRoleFromToken();
 //     fetch(uri, {
 //         method: 'GET',
 //         headers: {
-//             'Authorization': `Bearer ${getCookie('authToken')}`, // שליפת הטוקן מהקוקי
+//             'Authorization': `Bearer ${token}`,
 //             'Accept': 'application/json',
 //             'Content-Type': 'application/json'
 //         },
-//         credentials: 'include' // מאפשר שליחה של קוקיז עם הבקשה
+//         credentials: 'include'
 //     })
 //     .then(response => {
 //         if (response.status === 401) {
-//             // הפנה לעמוד הלוגין
 //             window.location.href = '/login.html';
-//             }
+//         }
 //         return response.json();
 //     })
 //     .then(data => _displayItems(data))
@@ -114,11 +78,11 @@
 //     fetch(uri, {
 //         method: 'POST',
 //         headers: {
-//             'Authorization': `Bearer ${getCookie('authToken')}`, // שליפת הטוקן מהקוקי
+//             'Authorization': `Bearer ${token}`,
 //             'Accept': 'application/json',
 //             'Content-Type': 'application/json'
 //         },
-//         credentials: 'include', // מאפשר שליחה של קוקיז עם הבקשה
+//         credentials: 'include',
 //         body: JSON.stringify(item)
 //     })
 //     .then(response => {
@@ -141,11 +105,11 @@
 //     fetch(`${uri}/${id}`, {
 //         method: 'DELETE',
 //         headers: {
-//             'Authorization': `Bearer ${getCookie('authToken')}`, // שליפת הטוקן מהקוקי
+//             'Authorization': `Bearer ${token}`,
 //             'Accept': 'application/json',
 //             'Content-Type': 'application/json'
 //         },
-//         credentials: 'include' // מאפשר שליחה של קוקיז עם הבקשה
+//         credentials: 'include'
 //     })
 //     .then(() => getItems())
 //     .catch(error => console.error('Unable to delete item.', error));
@@ -153,7 +117,6 @@
 
 // function displayEditForm(id) {
 //     const item = books.find(item => item.id === id);
-
 //     document.getElementById('edit-name').value = item.name;
 //     document.getElementById('edit-author').value = item.author;
 //     document.getElementById('edit-price').value = item.price;
@@ -175,11 +138,11 @@
 //     fetch(`${uri}/${itemId}`, {
 //         method: 'PUT',
 //         headers: {
-//             'Authorization': `Bearer ${getCookie('authToken')}`, // שליפת הטוקן מהקוקי
+//             'Authorization': `Bearer ${token}`,
 //             'Accept': 'application/json',
 //             'Content-Type': 'application/json'
 //         },
-//         credentials: 'include', // מאפשר שליחה של קוקיז עם הבקשה
+//         credentials: 'include',
 //         body: JSON.stringify(item)
 //     })
 //     .then(() => getItems())
@@ -235,47 +198,37 @@
 //     books = data;
 // }
 
-// // קריאה ל-getItems כדי להציג את הספרים
+// function filterBooksByName() {
+//     const filterValue = document.getElementById('filter-input').value.toLowerCase();
+//     const filteredBooks = books.filter(book => book.name.toLowerCase().includes(filterValue));
+//     _displayItems(filteredBooks);
+// }
+// function clearFilter() {
+//     document.getElementById('filter-input').value = ''; 
+//     getItems();
+// }
+
 // getItems();
+
+
+
+
 const uri = '/book';
-let books = [];
-let userRole;
-let userId;
+// let books = [];
+// let userRole;
+// let userId;
 
-function getCookie(name) {
-    const value = `; ${document.cookie}`;
-    const parts = value.split(`; ${name}=`);
-    if (parts.length === 2) return parts.pop().split(';').shift();
-    return null;
-}
 
-function getUserRoleFromToken() {
-    const token = getCookie('authToken');
-    if (!token) {
-        return null;
-    }
 
-    const payLoad = token.split('.')[1];
-    const deCodedPayLoad = JSON.parse(atob(payLoad));
-    let roleValue = null;
-    for (let key in deCodedPayLoad){
-        if(key.includes("role")){
-            roleValue = deCodedPayLoad[key];
-        }
-        if(key.includes("id")){
-            userId = deCodedPayLoad[key];
-        }
-    }
-
-    return roleValue;
-}
 
 function toggleAddBookForm(){
     const addBookForm = document.getElementById('addBookForm');
+    const authorName = document.getElementById('add-author');
     if (addBookForm.style.display === 'block') {
         addBookForm.style.display = 'none';
     } else {
         addBookForm.style.display = 'block';
+        authorName.innerHTML = userName;
     }
 }
 
@@ -284,7 +237,7 @@ function getItems() {
     fetch(uri, {
         method: 'GET',
         headers: {
-            'Authorization': `Bearer ${getCookie('authToken')}`,
+            'Authorization': `Bearer ${token}`,
             'Accept': 'application/json',
             'Content-Type': 'application/json'
         },
@@ -316,7 +269,7 @@ function addItem() {
     fetch(uri, {
         method: 'POST',
         headers: {
-            'Authorization': `Bearer ${getCookie('authToken')}`,
+            'Authorization': `Bearer ${token}`,
             'Accept': 'application/json',
             'Content-Type': 'application/json'
         },
@@ -343,7 +296,7 @@ function deleteItem(id) {
     fetch(`${uri}/${id}`, {
         method: 'DELETE',
         headers: {
-            'Authorization': `Bearer ${getCookie('authToken')}`,
+            'Authorization': `Bearer ${token}`,
             'Accept': 'application/json',
             'Content-Type': 'application/json'
         },
@@ -376,7 +329,7 @@ function updateItem() {
     fetch(`${uri}/${itemId}`, {
         method: 'PUT',
         headers: {
-            'Authorization': `Bearer ${getCookie('authToken')}`,
+            'Authorization': `Bearer ${token}`,
             'Accept': 'application/json',
             'Content-Type': 'application/json'
         },
@@ -447,3 +400,5 @@ function clearFilter() {
 }
 
 getItems();
+
+

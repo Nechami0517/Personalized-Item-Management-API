@@ -36,24 +36,29 @@ builder.Services.AddSwaggerGen(c =>
         }
     );
 });
-Log.Logger = new LoggerConfiguration()
-            .MinimumLevel.Debug()
-            
-            .WriteTo.File("logs/myapp.txt", rollingInterval: RollingInterval.Day)
-            .CreateLogger();
 
-        Log.Information("Hello, world!");
-      await Log.CloseAndFlushAsync();
-        
-// Add services to the container.
 builder.Services.AddControllers();
 
 builder.Services.AddCustomAuthentication(builder.Configuration);
 
 builder.Services.AddService();
+Log.Logger = new LoggerConfiguration()
+    .MinimumLevel.Debug()
+    // .MinimumLevel.Override("Microsoft", Serilog.Events.LogEventLevel.Information)
+    .WriteTo.File("logs/log-.txt", rollingInterval: RollingInterval.Day, 
+                  fileSizeLimitBytes: 100_000_000)
+    .CreateLogger();
 
+ builder.Host.UseSerilog();
 var app = builder.Build();
-
+// Log.Information("Application is starting...");
+// app.Use(async (context, next) =>
+// {
+//     Log.Information($"Handling request: {context.Request.Method} {context.Request.Path}");
+//     await next.Invoke();
+//     Log.Information($"Finished handling request: {context.Request.Method} {context.Request.Path}");
+// });
+// Log.Information("Application is running...");
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
@@ -63,10 +68,7 @@ if (app.Environment.IsDevelopment())
 
 
  app.UseHttpsRedirection();
-
-
-
-app.UseLogMiddleware();
+//app.UseLogMiddleware();
 //app.UseErrorMiddleware();
 app.UseStaticFiles(); 
 app.UseRouting();
@@ -76,29 +78,16 @@ app.UseAuthorization();
 //app.UseDefaultFiles();
 app.UseDefaultFiles(new DefaultFilesOptions
 {
-    DefaultFileNames = new List<string> { "login.html" }
+    DefaultFileNames = new List<string> { "book.html" }
 });
 
 app.UseUserMiddleware();
 app.MapControllers();
 
+  
+Console.WriteLine("Application is running on:");
+Console.WriteLine("HTTP: http://localhost:5172");
+Console.WriteLine("HTTPS: https://localhost:7148");   
 app.Run();
 
-// app.UseLogMiddleware();
-// //app.UseErrorMiddleware();
 
-// app.UseStaticFiles(); 
-
-// app.UseRouting();
-//  app.UseAuthMiddleware();
-// app.UseDefaultFiles(new DefaultFilesOptions
-// {
-//     DefaultFileNames = new List<string> { "book.html" }
-// });
-
-//  app.UseUserMiddleware();
-// app.UseAuthentication();
-// app.UseAuthorization();
-// app.MapControllers();
-
-// app.Run();

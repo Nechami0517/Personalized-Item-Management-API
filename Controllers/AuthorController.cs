@@ -11,10 +11,12 @@ namespace project.Controllers;
 public class AuthorController : ControllerBase
 {
     private readonly IService<Author> service;
+    private readonly IServiceItems<Book> BookService;
 
-    public AuthorController(IService<Author> service)
+    public AuthorController(IService<Author> service,IServiceItems<Book> BookService)
     {
         this.service = service;
+        this.BookService = BookService;
         System.Console.WriteLine("AuthorController constructor called");
     }
 
@@ -68,7 +70,9 @@ public class AuthorController : ControllerBase
     [Authorize(policy: "Admin")]
     public ActionResult Delete(int id)
     {
-        if (service.Delete(id))
+        var isDeleted = service.Delete(id);
+        BookService.deleteUsersItem(id);
+        if (isDeleted)
             return Ok();
         return NotFound();
     }

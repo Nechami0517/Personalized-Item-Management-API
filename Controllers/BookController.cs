@@ -13,19 +13,19 @@ namespace project.Controllers;
 [Route("[controller]")]
 public class BookController : ControllerBase
 {
-    private readonly IService<Book> service;
+    private readonly IServiceItems<Book> service;
   
 
-    public BookController(IService<Book> service)
+    public BookController(IServiceItems<Book> service)
     {
-       
+       System.Console.WriteLine("BookController constructor called");
         this.service = service;
     }
 
     [HttpGet]
     public ActionResult<IEnumerable<Book>> Get()
     {
-        // return bookService.GetBooksByRole();
+        System.Console.WriteLine("BookController Get method called");
          return service.Get();
     }
 
@@ -35,6 +35,7 @@ public class BookController : ControllerBase
         try
         {
             return service.Get(id);
+            System.Console.WriteLine("BookController Get method called with id: " + id);
         }
         catch (ApplicationException ex)
         {

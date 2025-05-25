@@ -43,7 +43,7 @@ public static class AuthServiceExtensions
             })
             .AddCookie(CookieAuthenticationDefaults.AuthenticationScheme, options =>
             {
-               options.LoginPath = "/login.html"; // נתיב לדף ההתחברות
+              options.LoginPath = "/login.html"; // נתיב לדף ההתחברות
                 options.AccessDeniedPath = "/access-denied"; // נתיב לדף שגיאה אם אין הרשאה
             });
         services.AddAuthorization(cfg =>

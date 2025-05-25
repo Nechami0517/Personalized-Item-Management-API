@@ -7,20 +7,16 @@ using project.Models;
 
 namespace project.Services;
 
-public class BookServiceJson : ServiceJson<Book>
+public class BookServiceJson : ServiceItemJson<Book> 
 {
   
     private readonly CurrentUserService user;
-   
-     
+    private readonly IService<Author> authorService;
 
-
-
-    public BookServiceJson(IHostEnvironment env, CurrentUserService currentUserService) : base(env)
+    public BookServiceJson(IHostEnvironment env, IService<Author> authorService,CurrentUserService currentUserService) : base(env)
     {
 
-        
-        
+        this.authorService = authorService; 
         this.user = currentUserService;
     }
 
@@ -86,6 +82,7 @@ public class BookServiceJson : ServiceJson<Book>
     {
         var book = MyList.FirstOrDefault(b => b.Id == id);
         var role = user.Role;
+        
 
         if (role == "Admin")
         {
@@ -102,10 +99,10 @@ public class BookServiceJson : ServiceJson<Book>
         }
         return null;
     }
-     
 
-       
-    
+
+
+
 
     public override int Insert(Book newBook)
     {
@@ -132,14 +129,14 @@ public class BookServiceJson : ServiceJson<Book>
             return -1;
         }
 
-        // if (authorService.Get().FirstOrDefault(u => u.Name == newBook.Author) == null)
-        // {
+        if (authorService.Get().FirstOrDefault(u => u.Name == newBook.Author) == null)
+        {
 
-        //     System.Console.WriteLine("Error: Author does not exist in the list.");
-        //     return -1;
+            System.Console.WriteLine("Error: Author does not exist in the list.");
+            return -1;
 
-        // }
-        // else
+        }
+        else{
         
 
             var authorName = user.Name;
@@ -163,7 +160,7 @@ public class BookServiceJson : ServiceJson<Book>
         
 
     }
-
+}
     public override bool Update(int id, Book book)
     {
         var existingBook = MyList.FirstOrDefault(b => b.Id == id);
@@ -223,5 +220,12 @@ public class BookServiceJson : ServiceJson<Book>
 
     }
 
+ public override void deleteUsersItem(int id){
+        System.Console.WriteLine("deleteAuthorsItem function called");
+        var authorsBooks = Get();
+        authorsBooks.RemoveAll(b => b.AuthorId == id && Delete(b.Id));
+        
+    }
 
+    
 }
