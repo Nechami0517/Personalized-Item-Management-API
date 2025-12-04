@@ -1,0 +1,423 @@
+2025-07-14 21:48:45.787 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-07-14 21:48:45.869 +03:00 [DBG] Hosting starting
+2025-07-14 21:48:45.921 +03:00 [INF] User profile is available. Using 'C:\Users\user1\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-07-14 21:48:45.927 +03:00 [DBG] Reading data from file 'C:\Users\user1\AppData\Local\ASP.NET\DataProtection-Keys\key-6ad043ab-f50d-4c82-b53f-be78bacf27f4.xml'.
+2025-07-14 21:48:45.944 +03:00 [DBG] Reading data from file 'C:\Users\user1\AppData\Local\ASP.NET\DataProtection-Keys\key-edd0291c-9c2b-4594-8923-1e525f962854.xml'.
+2025-07-14 21:48:45.958 +03:00 [DBG] Found key {6ad043ab-f50d-4c82-b53f-be78bacf27f4}.
+2025-07-14 21:48:45.959 +03:00 [DBG] Found key {edd0291c-9c2b-4594-8923-1e525f962854}.
+2025-07-14 21:48:45.962 +03:00 [DBG] Considering key {edd0291c-9c2b-4594-8923-1e525f962854} with expiration date 2025-10-08 17:14:26Z as default key.
+2025-07-14 21:48:45.963 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-07-14 21:48:45.965 +03:00 [DBG] Decrypting secret element using Windows DPAPI.
+2025-07-14 21:48:45.965 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-07-14 21:48:45.968 +03:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2025-07-14 21:48:45.968 +03:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2025-07-14 21:48:45.969 +03:00 [DBG] Using key {edd0291c-9c2b-4594-8923-1e525f962854} as the default key.
+2025-07-14 21:48:45.969 +03:00 [DBG] Key ring with default key {edd0291c-9c2b-4594-8923-1e525f962854} was loaded during application startup.
+2025-07-14 21:48:46.059 +03:00 [INF] Now listening on: https://localhost:7148
+2025-07-14 21:48:46.059 +03:00 [INF] Now listening on: http://localhost:5172
+2025-07-14 21:48:46.059 +03:00 [DBG] Loaded hosting startup assembly project
+2025-07-14 21:48:46.059 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-14 21:48:46.059 +03:00 [INF] Hosting environment: Development
+2025-07-14 21:48:46.059 +03:00 [INF] Content root path: C:\Users\user1\Desktop\נחמי תיכנות\יד\core\Core\MyprojectCoreWithNechami
+2025-07-14 21:48:46.059 +03:00 [DBG] Hosting started
+2025-07-14 21:49:03.654 +03:00 [DBG] Connection id "0HNE30SDB3V4S" accepted.
+2025-07-14 21:49:03.656 +03:00 [DBG] Connection id "0HNE30SDB3V4T" accepted.
+2025-07-14 21:49:03.656 +03:00 [DBG] Connection id "0HNE30SDB3V4S" started.
+2025-07-14 21:49:03.656 +03:00 [DBG] Connection id "0HNE30SDB3V4T" started.
+2025-07-14 21:49:03.690 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5172/ - null null
+2025-07-14 21:49:03.691 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-07-14 21:49:03.701 +03:00 [DBG] The request path  does not match the path filter
+2025-07-14 21:49:03.703 +03:00 [DBG] Https port '7148' discovered from server endpoints.
+2025-07-14 21:49:03.704 +03:00 [DBG] Redirecting to 'https://localhost:7148/'.
+2025-07-14 21:49:03.711 +03:00 [DBG] Connection id "0HNE30SDB3V4S" completed keep alive response.
+2025-07-14 21:49:03.712 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5172/ - 307 0 null 23.6296ms
+2025-07-14 21:49:03.715 +03:00 [DBG] Connection id "0HNE30SDB3V4U" accepted.
+2025-07-14 21:49:03.716 +03:00 [DBG] Connection id "0HNE30SDB3V4U" started.
+2025-07-14 21:49:03.753 +03:00 [DBG] Connection 0HNE30SDB3V4U established using the following protocol: "Tls13"
+2025-07-14 21:49:03.771 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7148/ - null null
+2025-07-14 21:49:03.773 +03:00 [DBG] The request path  does not match the path filter
+2025-07-14 21:49:03.773 +03:00 [DBG] The request path / does not match a supported file type
+2025-07-14 21:49:03.781 +03:00 [DBG] No candidates found for the request path '/'
+2025-07-14 21:49:03.781 +03:00 [DBG] Request did not match any endpoints
+2025-07-14 21:49:03.875 +03:00 [DBG] Successfully validated the token.
+2025-07-14 21:49:03.876 +03:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2025-07-14 21:49:03.892 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7148/book.html - 404 0 null 121.3681ms
+2025-07-14 21:49:03.893 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7148/book.html, Response status code: 404
+2025-07-14 21:49:12.823 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7148/ - null null
+2025-07-14 21:49:12.826 +03:00 [DBG] The request path  does not match the path filter
+2025-07-14 21:49:12.826 +03:00 [DBG] The request path / does not match a supported file type
+2025-07-14 21:49:12.826 +03:00 [DBG] No candidates found for the request path '/'
+2025-07-14 21:49:12.827 +03:00 [DBG] Request did not match any endpoints
+2025-07-14 21:49:12.829 +03:00 [DBG] Successfully validated the token.
+2025-07-14 21:49:12.830 +03:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2025-07-14 21:49:12.833 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7148/book.html - 404 0 null 9.2207ms
+2025-07-14 21:49:12.833 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7148/book.html, Response status code: 404
+2025-07-14 21:49:21.223 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7148/login.html - null null
+2025-07-14 21:49:21.224 +03:00 [DBG] The request path  does not match the path filter
+2025-07-14 21:49:21.251 +03:00 [INF] Sending file. Request path: '/login.html'. Physical path: 'C:\Users\user1\Desktop\נחמי תיכנות\יד\core\Core\MyprojectCoreWithNechami\wwwroot\login.html'
+2025-07-14 21:49:21.251 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7148/login.html - 200 712 text/html 28.2368ms
+2025-07-14 21:49:21.275 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7148/css/site.css - null null
+2025-07-14 21:49:21.275 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7148/css/home.css - null null
+2025-07-14 21:49:21.275 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7148/js/login.js - null null
+2025-07-14 21:49:21.275 +03:00 [DBG] The request path  does not match the path filter
+2025-07-14 21:49:21.275 +03:00 [DBG] The request path  does not match the path filter
+2025-07-14 21:49:21.275 +03:00 [DBG] The request path  does not match the path filter
+2025-07-14 21:49:21.291 +03:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\user1\Desktop\נחמי תיכנות\יד\core\Core\MyprojectCoreWithNechami\wwwroot\css\site.css'
+2025-07-14 21:49:21.291 +03:00 [INF] Sending file. Request path: '/css/home.css'. Physical path: 'C:\Users\user1\Desktop\נחמי תיכנות\יד\core\Core\MyprojectCoreWithNechami\wwwroot\css\home.css'
+2025-07-14 21:49:21.293 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7148/css/home.css - 200 401 text/css 17.8245ms
+2025-07-14 21:49:21.293 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7148/css/site.css - 200 3596 text/css 17.9532ms
+2025-07-14 21:49:21.299 +03:00 [INF] Sending file. Request path: '/js/login.js'. Physical path: 'C:\Users\user1\Desktop\נחמי תיכנות\יד\core\Core\MyprojectCoreWithNechami\wwwroot\js\login.js'
+2025-07-14 21:49:21.300 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7148/js/login.js - 200 1689 text/javascript 24.1541ms
+2025-07-14 21:49:21.885 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7148/favicon.ico - null null
+2025-07-14 21:49:21.886 +03:00 [DBG] The request path  does not match the path filter
+2025-07-14 21:49:21.886 +03:00 [DBG] The request path /favicon.ico does not match an existing file
+2025-07-14 21:49:21.887 +03:00 [DBG] No candidates found for the request path '/favicon.ico'
+2025-07-14 21:49:21.888 +03:00 [DBG] Request did not match any endpoints
+2025-07-14 21:49:21.891 +03:00 [DBG] Successfully validated the token.
+2025-07-14 21:49:21.891 +03:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2025-07-14 21:49:21.893 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7148/favicon.ico - 404 0 null 7.493ms
+2025-07-14 21:49:21.893 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7148/favicon.ico, Response status code: 404
+2025-07-14 21:50:04.742 +03:00 [DBG] Connection id "0HNE30SDB3V4T" received FIN.
+2025-07-14 21:50:04.742 +03:00 [DBG] Connection id "0HNE30SDB3V4T" disconnecting.
+2025-07-14 21:50:04.743 +03:00 [DBG] Connection id "0HNE30SDB3V4T" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-07-14 21:50:04.756 +03:00 [DBG] Connection id "0HNE30SDB3V4T" stopped.
+2025-07-14 21:51:15.341 +03:00 [DBG] Connection id "0HNE30SDB3V4S" disconnecting.
+2025-07-14 21:51:15.341 +03:00 [DBG] Connection id "0HNE30SDB3V4S" stopped.
+2025-07-14 21:51:15.341 +03:00 [DBG] Connection id "0HNE30SDB3V4S" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-07-14 21:51:33.493 +03:00 [DBG] Connection id "0HNE30SDB3V4U" is closing.
+2025-07-14 21:51:33.496 +03:00 [DBG] Connection id "0HNE30SDB3V4U" is closed. The last processed stream ID was 13.
+2025-07-14 21:51:33.497 +03:00 [DBG] Connection id "0HNE30SDB3V4U" received FIN.
+2025-07-14 21:51:33.497 +03:00 [DBG] Connection id "0HNE30SDB3V4U" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-07-14 21:51:33.498 +03:00 [DBG] The connection queue processing loop for 0HNE30SDB3V4U completed.
+2025-07-14 21:51:33.499 +03:00 [DBG] Connection id "0HNE30SDB3V4U" stopped.
+2025-07-14 21:55:55.966 +03:00 [DBG] Connection id "0HNE30SDB3V4V" accepted.
+2025-07-14 21:55:55.966 +03:00 [DBG] Connection id "0HNE30SDB3V4V" started.
+2025-07-14 21:55:55.971 +03:00 [DBG] Connection 0HNE30SDB3V4V established using the following protocol: "Tls13"
+2025-07-14 21:55:55.971 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7148/.well-known/appspecific/com.chrome.devtools.json - null null
+2025-07-14 21:55:55.972 +03:00 [DBG] The request path  does not match the path filter
+2025-07-14 21:55:55.972 +03:00 [DBG] The request path /.well-known/appspecific/com.chrome.devtools.json does not match an existing file
+2025-07-14 21:55:55.972 +03:00 [DBG] No candidates found for the request path '/.well-known/appspecific/com.chrome.devtools.json'
+2025-07-14 21:55:55.972 +03:00 [DBG] Request did not match any endpoints
+2025-07-14 21:55:55.973 +03:00 [DBG] Successfully validated the token.
+2025-07-14 21:55:55.973 +03:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2025-07-14 21:55:55.974 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7148/.well-known/appspecific/com.chrome.devtools.json - 404 0 null 2.3493ms
+2025-07-14 21:55:55.974 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7148/.well-known/appspecific/com.chrome.devtools.json, Response status code: 404
+2025-07-14 21:56:25.446 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7148/ - null null
+2025-07-14 21:56:25.447 +03:00 [DBG] The request path  does not match the path filter
+2025-07-14 21:56:25.447 +03:00 [DBG] The request path / does not match a supported file type
+2025-07-14 21:56:25.447 +03:00 [DBG] No candidates found for the request path '/'
+2025-07-14 21:56:25.447 +03:00 [DBG] Request did not match any endpoints
+2025-07-14 21:56:25.451 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-07-14 21:56:25.452 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7148/book.html - 200 0 null 6.1378ms
+2025-07-14 21:56:39.492 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7148/login - application/json 71
+2025-07-14 21:56:39.492 +03:00 [DBG] POST requests are not supported
+2025-07-14 21:56:39.493 +03:00 [DBG] POST requests are not supported
+2025-07-14 21:56:39.496 +03:00 [DBG] 1 candidate(s) found for the request path '/login'
+2025-07-14 21:56:39.500 +03:00 [DBG] Endpoint 'project.Controllers.LoginController.Login (project)' with route pattern 'Login' is valid for the request path '/login'
+2025-07-14 21:56:39.500 +03:00 [DBG] Request matched endpoint 'project.Controllers.LoginController.Login (project)'
+2025-07-14 21:56:39.501 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-07-14 21:56:39.502 +03:00 [INF] Executing endpoint 'project.Controllers.LoginController.Login (project)'
+2025-07-14 21:56:39.523 +03:00 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] Login(LoginRequest) on controller project.Controllers.LoginController (project).
+2025-07-14 21:56:39.524 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-07-14 21:56:39.524 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-07-14 21:56:39.524 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-07-14 21:56:39.524 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-07-14 21:56:39.524 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-07-14 21:56:39.525 +03:00 [DBG] Executing controller factory for controller project.Controllers.LoginController (project)
+2025-07-14 21:56:39.585 +03:00 [DBG] Executed controller factory for controller project.Controllers.LoginController (project)
+2025-07-14 21:56:39.587 +03:00 [DBG] Attempting to bind parameter 'loginRequest' of type 'project.Controllers.LoginController+LoginRequest' ...
+2025-07-14 21:56:39.589 +03:00 [DBG] Attempting to bind parameter 'loginRequest' of type 'project.Controllers.LoginController+LoginRequest' using the name '' in request data ...
+2025-07-14 21:56:39.590 +03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-07-14 21:56:39.594 +03:00 [DBG] Connection id "0HNE30SDB3V4V", Request id "0HNE30SDB3V4V:00000005": started reading request body.
+2025-07-14 21:56:39.594 +03:00 [DBG] Connection id "0HNE30SDB3V4V", Request id "0HNE30SDB3V4V:00000005": done reading request body.
+2025-07-14 21:56:39.596 +03:00 [DBG] JSON input formatter succeeded, deserializing to type 'project.Controllers.LoginController+LoginRequest'
+2025-07-14 21:56:39.597 +03:00 [DBG] Done attempting to bind parameter 'loginRequest' of type 'project.Controllers.LoginController+LoginRequest'.
+2025-07-14 21:56:39.597 +03:00 [DBG] Done attempting to bind parameter 'loginRequest' of type 'project.Controllers.LoginController+LoginRequest'.
+2025-07-14 21:56:39.597 +03:00 [DBG] Attempting to validate the bound parameter 'loginRequest' of type 'project.Controllers.LoginController+LoginRequest' ...
+2025-07-14 21:56:39.602 +03:00 [DBG] Done attempting to validate the bound parameter 'loginRequest' of type 'project.Controllers.LoginController+LoginRequest'.
+2025-07-14 21:56:39.619 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-07-14 21:56:39.621 +03:00 [DBG] Attempting to select an output formatter based on Accept header '["application/json"]'.
+2025-07-14 21:56:39.621 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-07-14 21:56:39.622 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-07-14 21:56:39.641 +03:00 [INF] Executed action project.Controllers.LoginController.Login (project) in 114.0312ms
+2025-07-14 21:56:39.641 +03:00 [INF] Executed endpoint 'project.Controllers.LoginController.Login (project)'
+2025-07-14 21:56:39.641 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7148/login - 200 null application/json; charset=utf-8 148.8254ms
+2025-07-14 21:56:39.651 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7148/book.html - null null
+2025-07-14 21:56:39.651 +03:00 [DBG] The request path  does not match the path filter
+2025-07-14 21:56:39.716 +03:00 [INF] Sending file. Request path: '/book.html'. Physical path: 'C:\Users\user1\Desktop\נחמי תיכנות\יד\core\Core\MyprojectCoreWithNechami\wwwroot\book.html'
+2025-07-14 21:56:39.717 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7148/book.html - 200 5414 text/html 65.3497ms
+2025-07-14 21:56:39.728 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7148/js/utils.js - null null
+2025-07-14 21:56:39.728 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7148/js/books.js - null null
+2025-07-14 21:56:39.728 +03:00 [DBG] The request path  does not match the path filter
+2025-07-14 21:56:39.728 +03:00 [DBG] The request path  does not match the path filter
+2025-07-14 21:56:39.752 +03:00 [INF] Sending file. Request path: '/js/utils.js'. Physical path: 'C:\Users\user1\Desktop\נחמי תיכנות\יד\core\Core\MyprojectCoreWithNechami\wwwroot\js\utils.js'
+2025-07-14 21:56:39.752 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7148/js/utils.js - 200 1924 text/javascript 24.2487ms
+2025-07-14 21:56:39.752 +03:00 [INF] Sending file. Request path: '/js/books.js'. Physical path: 'C:\Users\user1\Desktop\נחמי תיכנות\יד\core\Core\MyprojectCoreWithNechami\wwwroot\js\books.js'
+2025-07-14 21:56:39.752 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7148/js/books.js - 200 12751 text/javascript 24.6518ms
+2025-07-14 21:56:39.756 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7148/book - application/json null
+2025-07-14 21:56:39.756 +03:00 [DBG] The request path  does not match the path filter
+2025-07-14 21:56:39.756 +03:00 [DBG] The request path /book does not match a supported file type
+2025-07-14 21:56:39.756 +03:00 [DBG] 1 candidate(s) found for the request path '/book'
+2025-07-14 21:56:39.756 +03:00 [DBG] Endpoint 'project.Controllers.BookController.Get (project)' with route pattern 'Book' is valid for the request path '/book'
+2025-07-14 21:56:39.756 +03:00 [DBG] Request matched endpoint 'project.Controllers.BookController.Get (project)'
+2025-07-14 21:56:39.757 +03:00 [DBG] Successfully validated the token.
+2025-07-14 21:56:39.757 +03:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2025-07-14 21:56:39.762 +03:00 [DBG] Authorization was successful.
+2025-07-14 21:56:39.762 +03:00 [INF] Executing endpoint 'project.Controllers.BookController.Get (project)'
+2025-07-14 21:56:39.764 +03:00 [INF] Route matched with {action = "Get", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[project.Models.BookDb]] Get() on controller project.Controllers.BookController (project).
+2025-07-14 21:56:39.764 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-07-14 21:56:39.764 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-07-14 21:56:39.764 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-07-14 21:56:39.764 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-07-14 21:56:39.764 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-07-14 21:56:39.764 +03:00 [DBG] Executing controller factory for controller project.Controllers.BookController (project)
+2025-07-14 21:56:39.924 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-07-14 21:56:39.945 +03:00 [DBG] Executed controller factory for controller project.Controllers.BookController (project)
+2025-07-14 21:56:40.507 +03:00 [DBG] Entity Framework Core 9.0.5 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.5' with options: EngineType=SqlServer 
+2025-07-14 21:56:40.573 +03:00 [DBG] Compiling query expression: 
+'DbSet<BookDb>()
+    .GroupJoin(
+        inner: DbSet<AuthorDb>(), 
+        outerKeySelector: b => b.AuthorId, 
+        innerKeySelector: a => a.Id, 
+        resultSelector: (b, bookAuthor) => new { 
+            b = b, 
+            bookAuthor = bookAuthor
+         })
+    .SelectMany(
+        collectionSelector: <>h__TransparentIdentifier0 => <>h__TransparentIdentifier0.bookAuthor
+            .DefaultIfEmpty(), 
+        resultSelector: (<>h__TransparentIdentifier0, author) => new BookDb{ 
+            Id = <>h__TransparentIdentifier0.b.Id, 
+            Name = <>h__TransparentIdentifier0.b.Name, 
+            AuthorId = author.Id, 
+            Price = <>h__TransparentIdentifier0.b.Price, 
+            Date = <>h__TransparentIdentifier0.b.Date 
+        }
+    )'
+2025-07-14 21:56:40.838 +03:00 [DBG] Generated query execution expression: 
+'queryContext => SingleQueryingEnumerable.Create<BookDb>(
+    relationalQueryContext: (RelationalQueryContext)queryContext, 
+    relationalCommandResolver: parameters => [LIFTABLE Constant: RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            Id -> 0
+            Name -> 1
+            AuthorId -> 2
+            Price -> 3
+            Date -> 4
+        SELECT b.Id, b.Name, a.Id AS AuthorId, b.Price, b.Date
+        FROM Books AS b
+        LEFT JOIN Authors AS a ON b.AuthorId == a.Id) | Resolver: c => new RelationalCommandCache(
+        c.Dependencies.MemoryCache, 
+        c.RelationalDependencies.QuerySqlGeneratorFactory, 
+        c.RelationalDependencies.RelationalParameterBasedSqlProcessorFactory, 
+        Projection Mapping:
+            Id -> 0
+            Name -> 1
+            AuthorId -> 2
+            Price -> 3
+            Date -> 4
+        SELECT b.Id, b.Name, a.Id AS AuthorId, b.Price, b.Date
+        FROM Books AS b
+        LEFT JOIN Authors AS a ON b.AuthorId == a.Id, 
+        False, 
+        new HashSet<string>(
+            new string[]{ }, 
+            StringComparer.Ordinal
+        )
+    )].GetRelationalCommandTemplate(parameters), 
+    readerColumns: null, 
+    shaper: (queryContext, dataReader, resultContext, resultCoordinator) => 
+    {
+        int? value1;
+        string value2;
+        int? value3;
+        double? value4;
+        DateTime? value5;
+        value1 = (int?)dataReader.GetInt32(0);
+        value2 = dataReader.GetString(1);
+        value3 = dataReader.IsDBNull(2) ? default(int?) : (int?)dataReader.GetInt32(2);
+        value4 = (double?)dataReader.GetDouble(3);
+        value5 = (DateTime?)dataReader.GetDateTime(4);
+        return new BookDb{ 
+            Id = (int)value1, 
+            Name = value2, 
+            AuthorId = (int)value3, 
+            Price = (double)value4, 
+            Date = (DateTime)value5 
+        }
+        ;
+    }, 
+    contextType: project.Data.AppDbContext, 
+    standAloneStateManager: False, 
+    detailedErrorsEnabled: False, 
+    threadSafetyChecksEnabled: True)'
+2025-07-14 21:56:40.866 +03:00 [DBG] Creating DbConnection.
+2025-07-14 21:56:40.888 +03:00 [DBG] Created DbConnection. (25ms).
+2025-07-14 21:56:40.890 +03:00 [DBG] Opening connection to database 'UsersAndItemsDB' on server 'DESKTOP-SSNMLFD'.
+2025-07-14 21:56:41.154 +03:00 [DBG] Opened connection to database 'UsersAndItemsDB' on server 'DESKTOP-SSNMLFD'.
+2025-07-14 21:56:41.156 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-07-14 21:56:41.159 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (3ms).
+2025-07-14 21:56:41.161 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (5ms).
+2025-07-14 21:56:41.166 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Id], [b].[Name], [a].[Id] AS [AuthorId], [b].[Price], [b].[Date]
+FROM [Books] AS [b]
+LEFT JOIN [Authors] AS [a] ON [b].[AuthorId] = [a].[Id]
+2025-07-14 21:56:41.242 +03:00 [INF] Executed DbCommand (75ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Id], [b].[Name], [a].[Id] AS [AuthorId], [b].[Price], [b].[Date]
+FROM [Books] AS [b]
+LEFT JOIN [Authors] AS [a] ON [b].[AuthorId] = [a].[Id]
+2025-07-14 21:56:41.251 +03:00 [DBG] Closing data reader to 'UsersAndItemsDB' on server 'DESKTOP-SSNMLFD'.
+2025-07-14 21:56:41.256 +03:00 [DBG] A data reader for 'UsersAndItemsDB' on server 'DESKTOP-SSNMLFD' is being disposed after spending 10ms reading results.
+2025-07-14 21:56:41.257 +03:00 [DBG] Closing connection to database 'UsersAndItemsDB' on server 'DESKTOP-SSNMLFD'.
+2025-07-14 21:56:41.261 +03:00 [DBG] Closed connection to database 'UsersAndItemsDB' on server 'DESKTOP-SSNMLFD' (4ms).
+2025-07-14 21:56:41.261 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-07-14 21:56:41.261 +03:00 [DBG] Attempting to select an output formatter based on Accept header '["application/json"]'.
+2025-07-14 21:56:41.262 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-07-14 21:56:41.262 +03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[project.Models.BookDb, project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-14 21:56:41.278 +03:00 [INF] Executed action project.Controllers.BookController.Get (project) in 1513.9612ms
+2025-07-14 21:56:41.278 +03:00 [INF] Executed endpoint 'project.Controllers.BookController.Get (project)'
+2025-07-14 21:56:41.280 +03:00 [DBG] 'AppDbContext' disposed.
+2025-07-14 21:56:41.281 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7148/book - application/json null
+2025-07-14 21:56:41.281 +03:00 [DBG] The request path  does not match the path filter
+2025-07-14 21:56:41.281 +03:00 [DBG] The request path /book does not match a supported file type
+2025-07-14 21:56:41.281 +03:00 [DBG] 1 candidate(s) found for the request path '/book'
+2025-07-14 21:56:41.281 +03:00 [DBG] Endpoint 'project.Controllers.BookController.Get (project)' with route pattern 'Book' is valid for the request path '/book'
+2025-07-14 21:56:41.281 +03:00 [DBG] Request matched endpoint 'project.Controllers.BookController.Get (project)'
+2025-07-14 21:56:41.282 +03:00 [DBG] Successfully validated the token.
+2025-07-14 21:56:41.282 +03:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2025-07-14 21:56:41.283 +03:00 [DBG] Authorization was successful.
+2025-07-14 21:56:41.284 +03:00 [INF] Executing endpoint 'project.Controllers.BookController.Get (project)'
+2025-07-14 21:56:41.284 +03:00 [INF] Route matched with {action = "Get", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[project.Models.BookDb]] Get() on controller project.Controllers.BookController (project).
+2025-07-14 21:56:41.284 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-07-14 21:56:41.284 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-07-14 21:56:41.284 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-07-14 21:56:41.284 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-07-14 21:56:41.284 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-07-14 21:56:41.284 +03:00 [DBG] Executing controller factory for controller project.Controllers.BookController (project)
+2025-07-14 21:56:41.284 +03:00 [DBG] Disposing connection to database 'UsersAndItemsDB' on server 'DESKTOP-SSNMLFD'.
+2025-07-14 21:56:41.285 +03:00 [DBG] Executed controller factory for controller project.Controllers.BookController (project)
+2025-07-14 21:56:41.286 +03:00 [DBG] Disposed connection to database '' on server '' (1ms).
+2025-07-14 21:56:41.286 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7148/book - 200 null application/json; charset=utf-8 1529.8576ms
+2025-07-14 21:56:41.299 +03:00 [DBG] Entity Framework Core 9.0.5 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.5' with options: EngineType=SqlServer 
+2025-07-14 21:56:41.303 +03:00 [DBG] Creating DbConnection.
+2025-07-14 21:56:41.304 +03:00 [DBG] Created DbConnection. (0ms).
+2025-07-14 21:56:41.304 +03:00 [DBG] Opening connection to database 'UsersAndItemsDB' on server 'DESKTOP-SSNMLFD'.
+2025-07-14 21:56:41.304 +03:00 [DBG] Opened connection to database 'UsersAndItemsDB' on server 'DESKTOP-SSNMLFD'.
+2025-07-14 21:56:41.304 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-07-14 21:56:41.304 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-07-14 21:56:41.304 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2025-07-14 21:56:41.305 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Id], [b].[Name], [a].[Id] AS [AuthorId], [b].[Price], [b].[Date]
+FROM [Books] AS [b]
+LEFT JOIN [Authors] AS [a] ON [b].[AuthorId] = [a].[Id]
+2025-07-14 21:56:41.306 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Id], [b].[Name], [a].[Id] AS [AuthorId], [b].[Price], [b].[Date]
+FROM [Books] AS [b]
+LEFT JOIN [Authors] AS [a] ON [b].[AuthorId] = [a].[Id]
+2025-07-14 21:56:41.307 +03:00 [DBG] Closing data reader to 'UsersAndItemsDB' on server 'DESKTOP-SSNMLFD'.
+2025-07-14 21:56:41.307 +03:00 [DBG] A data reader for 'UsersAndItemsDB' on server 'DESKTOP-SSNMLFD' is being disposed after spending 0ms reading results.
+2025-07-14 21:56:41.307 +03:00 [DBG] Closing connection to database 'UsersAndItemsDB' on server 'DESKTOP-SSNMLFD'.
+2025-07-14 21:56:41.307 +03:00 [DBG] Closed connection to database 'UsersAndItemsDB' on server 'DESKTOP-SSNMLFD' (0ms).
+2025-07-14 21:56:41.307 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-07-14 21:56:41.307 +03:00 [DBG] Attempting to select an output formatter based on Accept header '["application/json"]'.
+2025-07-14 21:56:41.307 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-07-14 21:56:41.307 +03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[project.Models.BookDb, project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-14 21:56:41.307 +03:00 [INF] Executed action project.Controllers.BookController.Get (project) in 23.2117ms
+2025-07-14 21:56:41.307 +03:00 [INF] Executed endpoint 'project.Controllers.BookController.Get (project)'
+2025-07-14 21:56:41.307 +03:00 [DBG] 'AppDbContext' disposed.
+2025-07-14 21:56:41.307 +03:00 [DBG] Disposing connection to database 'UsersAndItemsDB' on server 'DESKTOP-SSNMLFD'.
+2025-07-14 21:56:41.307 +03:00 [DBG] Disposed connection to database '' on server '' (0ms).
+2025-07-14 21:56:41.307 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7148/book - 200 null application/json; charset=utf-8 26.6136ms
+2025-07-14 21:58:53.405 +03:00 [DBG] Connection id "0HNE30SDB3V4V" is closing.
+2025-07-14 21:58:53.405 +03:00 [DBG] Connection id "0HNE30SDB3V4V" is closed. The last processed stream ID was 15.
+2025-07-14 21:58:53.407 +03:00 [DBG] The connection queue processing loop for 0HNE30SDB3V4V completed.
+2025-07-14 21:58:53.407 +03:00 [DBG] Connection id "0HNE30SDB3V4V" received FIN.
+2025-07-14 21:58:53.408 +03:00 [DBG] Connection id "0HNE30SDB3V4V" stopped.
+2025-07-14 21:58:53.408 +03:00 [DBG] Connection id "0HNE30SDB3V4V" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-07-14 22:00:47.856 +03:00 [DBG] Connection id "0HNE30SDB3V50" accepted.
+2025-07-14 22:00:47.856 +03:00 [DBG] Connection id "0HNE30SDB3V50" started.
+2025-07-14 22:00:47.862 +03:00 [DBG] Connection 0HNE30SDB3V50 established using the following protocol: "Tls13"
+2025-07-14 22:00:47.862 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7148/book - application/json null
+2025-07-14 22:00:47.862 +03:00 [DBG] The request path  does not match the path filter
+2025-07-14 22:00:47.862 +03:00 [DBG] The request path /book does not match a supported file type
+2025-07-14 22:00:47.863 +03:00 [DBG] 1 candidate(s) found for the request path '/book'
+2025-07-14 22:00:47.863 +03:00 [DBG] Endpoint 'project.Controllers.BookController.Get (project)' with route pattern 'Book' is valid for the request path '/book'
+2025-07-14 22:00:47.863 +03:00 [DBG] Request matched endpoint 'project.Controllers.BookController.Get (project)'
+2025-07-14 22:00:47.863 +03:00 [DBG] Successfully validated the token.
+2025-07-14 22:00:47.863 +03:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2025-07-14 22:00:47.865 +03:00 [DBG] Authorization was successful.
+2025-07-14 22:00:47.865 +03:00 [INF] Executing endpoint 'project.Controllers.BookController.Get (project)'
+2025-07-14 22:00:47.866 +03:00 [INF] Route matched with {action = "Get", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[project.Models.BookDb]] Get() on controller project.Controllers.BookController (project).
+2025-07-14 22:00:47.866 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-07-14 22:00:47.866 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-07-14 22:00:47.866 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-07-14 22:00:47.866 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-07-14 22:00:47.866 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-07-14 22:00:47.866 +03:00 [DBG] Executing controller factory for controller project.Controllers.BookController (project)
+2025-07-14 22:00:47.870 +03:00 [DBG] Executed controller factory for controller project.Controllers.BookController (project)
+2025-07-14 22:00:47.924 +03:00 [DBG] Entity Framework Core 9.0.5 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.5' with options: EngineType=SqlServer 
+2025-07-14 22:00:47.925 +03:00 [DBG] Creating DbConnection.
+2025-07-14 22:00:47.926 +03:00 [DBG] Created DbConnection. (0ms).
+2025-07-14 22:00:47.926 +03:00 [DBG] Opening connection to database 'UsersAndItemsDB' on server 'DESKTOP-SSNMLFD'.
+2025-07-14 22:00:47.926 +03:00 [DBG] Opened connection to database 'UsersAndItemsDB' on server 'DESKTOP-SSNMLFD'.
+2025-07-14 22:00:47.926 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-07-14 22:00:47.926 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-07-14 22:00:47.926 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2025-07-14 22:00:47.926 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Id], [b].[Name], [a].[Id] AS [AuthorId], [b].[Price], [b].[Date]
+FROM [Books] AS [b]
+LEFT JOIN [Authors] AS [a] ON [b].[AuthorId] = [a].[Id]
+2025-07-14 22:00:47.947 +03:00 [INF] Executed DbCommand (22ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Id], [b].[Name], [a].[Id] AS [AuthorId], [b].[Price], [b].[Date]
+FROM [Books] AS [b]
+LEFT JOIN [Authors] AS [a] ON [b].[AuthorId] = [a].[Id]
+2025-07-14 22:00:47.948 +03:00 [DBG] Closing data reader to 'UsersAndItemsDB' on server 'DESKTOP-SSNMLFD'.
+2025-07-14 22:00:47.948 +03:00 [DBG] A data reader for 'UsersAndItemsDB' on server 'DESKTOP-SSNMLFD' is being disposed after spending 0ms reading results.
+2025-07-14 22:00:47.948 +03:00 [DBG] Closing connection to database 'UsersAndItemsDB' on server 'DESKTOP-SSNMLFD'.
+2025-07-14 22:00:47.948 +03:00 [DBG] Closed connection to database 'UsersAndItemsDB' on server 'DESKTOP-SSNMLFD' (0ms).
+2025-07-14 22:00:47.948 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-07-14 22:00:47.948 +03:00 [DBG] Attempting to select an output formatter based on Accept header '["application/json"]'.
+2025-07-14 22:00:47.948 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-07-14 22:00:47.948 +03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[project.Models.BookDb, project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-14 22:00:47.948 +03:00 [INF] Executed action project.Controllers.BookController.Get (project) in 82.3396ms
+2025-07-14 22:00:47.948 +03:00 [INF] Executed endpoint 'project.Controllers.BookController.Get (project)'
+2025-07-14 22:00:47.948 +03:00 [DBG] 'AppDbContext' disposed.
+2025-07-14 22:00:47.948 +03:00 [DBG] Disposing connection to database 'UsersAndItemsDB' on server 'DESKTOP-SSNMLFD'.
+2025-07-14 22:00:47.948 +03:00 [DBG] Disposed connection to database '' on server '' (0ms).
+2025-07-14 22:00:47.948 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7148/book - 200 null application/json; charset=utf-8 86.0721ms
+2025-07-14 22:00:53.087 +03:00 [INF] Request starting HTTP/2 DELETE https://localhost:7148/login - null null
+2025-07-14 22:00:53.087 +03:00 [DBG] DELETE requests are not supported
+2025-07-14 22:00:53.087 +03:00 [DBG] DELETE requests are not supported
+2025-07-14 22:00:53.087 +03:00 [DBG] 1 candidate(s) found for the request path '/login'
+2025-07-14 22:00:53.087 +03:00 [DBG] Endpoint 'project.Controllers.LoginController.Logout (project)' with route pattern 'Login' is valid for the request path '/login'
+2025-07-14 22:00:53.087 +03:00 [DBG] Request matched endpoint 'project.Controllers.LoginController.Logout (project)'
+2025-07-14 22:00:53.088 +03:00 [DBG] Successfully validated the token.
+2025-07-14 22:00:53.088 +03:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2025-07-14 22:00:53.089 +03:00 [INF] Executing endpoint 'project.Controllers.LoginController.Logout (project)'
+2025-07-14 22:00:53.091 +03:00 [INF] Route matched with {action = "Logout", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Logout() on controller project.Controllers.LoginController (project).
+2025-07-14 22:00:53.091 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-07-14 22:00:53.091 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-07-14 22:00:53.092 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-07-14 22:00:53.092 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-07-14 22:00:53.092 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-07-14 22:00:53.092 +03:00 [DBG] Executing controller factory for controller project.Controllers.LoginController (project)
+2025-07-14 22:00:53.094 +03:00 [DBG] Executed controller factory for controller project.Controllers.LoginController (project)
+2025-07-14 22:00:53.095 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-07-14 22:00:53.095 +03:00 [DBG] No information found on request to perform content negotiation.
+2025-07-14 22:00:53.095 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-07-14 22:00:53.095 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-07-14 22:00:53.095 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2025-07-14 22:00:53.095 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-07-14 22:00:53.096 +03:00 [INF] Executed action project.Controllers.LoginController.Logout (project) in 4.1936ms
+2025-07-14 22:00:53.096 +03:00 [INF] Executed endpoint 'project.Controllers.LoginController.Logout (project)'
+2025-07-14 22:00:53.096 +03:00 [INF] Request finished HTTP/2 DELETE https://localhost:7148/login - 200 null text/plain; charset=utf-8 8.9945ms
+2025-07-14 22:03:03.712 +03:00 [DBG] Connection id "0HNE30SDB3V50" is closing.
+2025-07-14 22:03:03.713 +03:00 [DBG] Connection id "0HNE30SDB3V50" is closed. The last processed stream ID was 3.
+2025-07-14 22:03:03.713 +03:00 [DBG] Connection id "0HNE30SDB3V50" received FIN.
+2025-07-14 22:03:03.713 +03:00 [DBG] Connection id "0HNE30SDB3V50" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-07-14 22:03:03.713 +03:00 [DBG] The connection queue processing loop for 0HNE30SDB3V50 completed.
+2025-07-14 22:03:03.713 +03:00 [DBG] Connection id "0HNE30SDB3V50" stopped.
+2025-07-14 22:03:26.181 +03:00 [INF] Application is shutting down...
+2025-07-14 22:03:26.182 +03:00 [DBG] Hosting stopping
+2025-07-14 22:03:26.188 +03:00 [DBG] Hosting stopped

@@ -20,5 +20,10 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     }
-  }
+  },
+  
+    "ConnectionStrings": {
+      "DefaultConnection": "Server=DESKTOP-SSNMLFD;Database=ProjectDB;Trusted_Connection=True;MultipleActiveResultSets=true"
+    }
+  
 }

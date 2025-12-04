@@ -1,135 +1,146 @@
 [
   {
-    "Id": 0,
-    "Name": "\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9\u05DD \u05D1\u05EA\u05D5\u05E8\u05D4",
-    "Author": "\u05D9\u05E9\u05E8\u05D0\u05DC \u05DB\u05D4\u05DF",
-    "Price": 10,
-    "Date": "2023-01-01"
-  },
-  {
     "Id": 1,
-    "Name": "\u05E1\u05D9\u05E4\u05D5\u05E8\u05D9 \u05D7\u05E1\u05D9\u05D3\u05D9\u05DD",
-    "Author": "\u05D9\u05E9\u05E8\u05D0\u05DC \u05DB\u05D4\u05DF",
-    "Price": 150,
-    "Date": "2023-05-15"
+    "Name": "שיעורים בתורה",
+    "Author": "ישראל כהן",
+    "Price": 10,
+    "Date": "2023-01-01",
+    "AuthorId": 1
   },
   {
     "Id": 2,
-    "Name": "\u05D4\u05D7\u05D9\u05D9\u05DD \u05D4\u05D9\u05D4\u05D5\u05D3\u05D9\u05D9\u05DD",
-    "Author": "\u05DE\u05E0\u05D7\u05DD \u05E9\u05D8\u05D9\u05D9\u05E0\u05D1\u05E8\u05D2",
-    "Price": 200,
-    "Date": "2023-02-10"
+    "Name": "סיפורי חסידים",
+    "Author": "ישראל כהן",
+    "Price": 150,
+    "Date": "2023-05-15",
+    "AuthorId": 1
   },
   {
     "Id": 3,
-    "Name": "\u05E9\u05D1\u05EA \u05E7\u05E1\u05D5\u05DE\u05D4",
-    "Author": "\u05DE\u05E0\u05D7\u05DD \u05E9\u05D8\u05D9\u05D9\u05E0\u05D1\u05E8\u05D2",
-    "Price": 120,
-    "Date": "2023-06-20"
+    "Name": "החיים היהודיים",
+    "Author": "מנחם שטיינברג",
+    "Price": 200,
+    "Date": "2023-02-10",
+    "AuthorId": 2
   },
   {
     "Id": 4,
-    "Name": "\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9 \u05E7\u05D5\u05D3\u05E9",
-    "Author": "\u05D7\u05D9\u05D9\u05DD \u05D2\u05D5\u05DC\u05D3\u05D1\u05E8\u05D2",
-    "Price": 80,
-    "Date": "2023-03-30"
+    "Name": "שבת קסומה",
+    "Author": "מנחם שטיינברג",
+    "Price": 120,
+    "Date": "2023-06-20",
+    "AuthorId": 2
   },
   {
     "Id": 5,
-    "Name": "\u05D4\u05DC\u05DB\u05D4 \u05D9\u05D5\u05DE\u05D9\u05EA",
-    "Author": "\u05D7\u05D9\u05D9\u05DD \u05D2\u05D5\u05DC\u05D3\u05D1\u05E8\u05D2",
-    "Price": 60,
-    "Date": "2023-05-25"
+    "Name": "לימודי קודש",
+    "Author": "חיים גולדברג",
+    "Price": 80,
+    "Date": "2023-03-30",
+    "AuthorId": 3
   },
   {
     "Id": 6,
-    "Name": "\u05DE\u05E2\u05E9\u05D4 \u05D1\u05D8\u05D7\u05E0\u05D4",
-    "Author": "\u05E9\u05E8\u05D4 \u05E4\u05E8\u05D9\u05D3\u05DE\u05DF",
-    "Price": 110,
-    "Date": "2023-04-15"
+    "Name": "הלכה יומית",
+    "Author": "חיים גולדברג",
+    "Price": 60,
+    "Date": "2023-05-25",
+    "AuthorId": 3
   },
   {
     "Id": 7,
-    "Name": "\u05D1\u05E8\u05DB\u05EA \u05D4\u05DE\u05D6\u05D5\u05DF",
-    "Author": "\u05E9\u05E8\u05D4 \u05E4\u05E8\u05D9\u05D3\u05DE\u05DF",
+    "Name": "מעשה בטחנה",
+    "Author": "שרה פרידמן",
+    "Price": 110,
+    "Date": "2023-04-15",
+    "AuthorId": 4
+  },
+  {
+    "Id": 8,
+    "Name": "ברכת המזון",
+    "Author": "שרה פרידמן",
     "Price": 80,
-    "Date": "2023-07-07"
+    "Date": "2023-07-07",
+    "AuthorId": 4
+  },
+  {
+    "Id": 9,
+    "Name": "מסופר ומספר",
+    "Author": "מנחם שטיינברג",
+    "Price": 140,
+    "Date": "2023-09-15",
+    "AuthorId": 2
+  },
+  {
+    "Id": 10,
+    "Name": "חזון למופת",
+    "Author": "חיים גולדברג",
+    "Price": 75,
+    "Date": "2023-10-02",
+    "AuthorId": 3
   },
   {
     "Id": 11,
-    "Name": "\u05DE\u05E1\u05D5\u05E4\u05E8 \u05D5\u05DE\u05E1\u05E4\u05E8",
-    "Author": "\u05DE\u05E0\u05D7\u05DD \u05E9\u05D8\u05D9\u05D9\u05E0\u05D1\u05E8\u05D2",
-    "Price": 140,
-    "Date": "2023-09-15"
+    "Name": "שלום בית",
+    "Author": "שרה פרידמן",
+    "Price": 95,
+    "Date": "2023-11-10",
+    "AuthorId": 4
   },
   {
     "Id": 12,
-    "Name": "\u05D7\u05D6\u05D5\u05DF \u05DC\u05DE\u05D5\u05E4\u05EA",
-    "Author": "\u05D7\u05D9\u05D9\u05DD \u05D2\u05D5\u05DC\u05D3\u05D1\u05E8\u05D2",
-    "Price": 75,
-    "Date": "2023-10-02"
+    "Name": "וקראתם לזה יום טוב",
+    "Author": "מנחם שטיינברג",
+    "Price": 95,
+    "Date": "2023-10-05",
+    "AuthorId": 2
   },
   {
     "Id": 13,
-    "Name": "\u05E9\u05DC\u05D5\u05DD \u05D1\u05D9\u05EA",
-    "Author": "\u05E9\u05E8\u05D4 \u05E4\u05E8\u05D9\u05D3\u05DE\u05DF",
-    "Price": 95,
-    "Date": "2023-11-10"
+    "Name": "חגים ושמחות",
+    "Author": "חיים גולדברג",
+    "Price": 135,
+    "Date": "2023-12-01",
+    "AuthorId": 3
+  },
+  {
+    "Id": 14,
+    "Name": "ברכות וכללות",
+    "Author": "שרה פרידמן",
+    "Price": 120,
+    "Date": "2023-12-25",
+    "AuthorId": 4
+  },
+  {
+    "Id": 15,
+    "Name": "בית נאמן בישראל",
+    "Author": "שרה פרידמן",
+    "Price": 150,
+    "Date": "2025-05-19",
+    "AuthorId": 4
   },
   {
     "Id": 16,
-    "Name": "\u05D5\u05E7\u05E8\u05D0\u05EA\u05DD \u05DC\u05D6\u05D4 \u05D9\u05D5\u05DD \u05D8\u05D5\u05D1",
-    "Author": "\u05DE\u05E0\u05D7\u05DD \u05E9\u05D8\u05D9\u05D9\u05E0\u05D1\u05E8\u05D2",
-    "Price": 95,
-    "Date": "2023-10-05"
+    "Name": "שבת שלום",
+    "Author": "Nechami",
+    "Price": 100,
+    "Date": "2025-05-01",
+    "AuthorId": 5
   },
   {
     "Id": 17,
-    "Name": "\u05D7\u05D2\u05D9\u05DD \u05D5\u05E9\u05DE\u05D7\u05D5\u05EA",
-    "Author": "\u05D7\u05D9\u05D9\u05DD \u05D2\u05D5\u05DC\u05D3\u05D1\u05E8\u05D2",
-    "Price": 135,
-    "Date": "2023-12-01"
+    "Name": "שנזכה להצלחה",
+    "Author": "Nechami",
+    "Price": 50,
+    "Date": "2025-05-08",
+    "AuthorId": 5
   },
   {
     "Id": 18,
-    "Name": "\u05D1\u05E8\u05DB\u05D5\u05EA \u05D5\u05E7\u05DC\u05DC\u05D5\u05EA",
-    "Author": "\u05E9\u05E8\u05D4 \u05E4\u05E8\u05D9\u05D3\u05DE\u05DF",
-    "Price": 120,
-    "Date": "2023-12-25"
-  },
-  {
-    "Id": 19,
-    "Name": "\u05D1\u05D9\u05EA \u05E0\u05D0\u05DE\u05DF \u05D1\u05D9\u05E9\u05E8\u05D0\u05DC",
-    "Author": "\u05E9\u05E8\u05D4 \u05E4\u05E8\u05D9\u05D3\u05DE\u05DF",
-    "Price": 150,
-    "Date": "2025-05-19"
-  },
-  {
-    "Id": 20,
-    "Name": "\u05E9\u05D1\u05EA \u05E9\u05DC\u05D5\u05DD",
-    "Author": "\u05D1\u05E8\u05DB\u05D9",
-    "Price": 100,
-    "Date": "2025-05-01"
-  },
-  {
-    "Id": 21,
-    "Name": "\u05E9\u05E0\u05D6\u05DB\u05D4 \u05DC\u05D4\u05E6\u05DC\u05D7\u05D4",
-    "Author": "\u05E9\u05E8\u05D4 \u05E4\u05E8\u05D9\u05D3\u05DE\u05DF",
-    "Price": 50,
-    "Date": "2025-05-08"
-  },
-  {
-    "Id": 22,
-    "Name": "\u05E9\u05E0\u05D6\u05DB\u05D4 \u05DC\u05D4\u05E6\u05DC\u05D7\u05D4",
-    "Author": "\u05D9\u05E9\u05E8\u05D0\u05DC \u05DB\u05D4\u05DF",
-    "Price": 120,
-    "Date": "2025-04-23"
-  },
-  {
-    "Id": 24,
-    "Name": "\u05E7\u05D9\u05E5",
+    "Name": "קיץ",
     "Author": "Nechami",
     "Price": 20,
-    "Date": "2025-05-01"
+    "Date": "2025-05-01",
+    "AuthorId": 5
   }
 ]

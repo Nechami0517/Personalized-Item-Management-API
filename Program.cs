@@ -1,4 +1,6 @@
+using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
+using project.Data;
 using project.middleware;
 using project.middlewares;
 using project.Services;
@@ -36,7 +38,8 @@ builder.Services.AddSwaggerGen(c =>
         }
     );
 });
-
+builder.Services.AddDbContext<AppDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 builder.Services.AddControllers();
 
 builder.Services.AddCustomAuthentication(builder.Configuration);

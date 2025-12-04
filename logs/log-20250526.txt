@@ -1,0 +1,539 @@
+2025-05-26 14:50:31.899 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-05-26 14:50:32.260 +03:00 [DBG] Entity Framework Core 9.0.5 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.5' with options: EngineType=SqlServer 
+2025-05-26 14:50:32.721 +03:00 [DBG] 'AppDbContext' disposed.
+2025-05-26 14:50:51.093 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-05-26 14:50:51.426 +03:00 [DBG] Entity Framework Core 9.0.5 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.5' with options: EngineType=SqlServer 
+2025-05-26 14:50:51.490 +03:00 [DBG] Creating DbConnection.
+2025-05-26 14:50:51.501 +03:00 [DBG] Created DbConnection. (9ms).
+2025-05-26 14:50:51.504 +03:00 [DBG] Migrating using database '' on server ''.
+2025-05-26 14:50:51.508 +03:00 [DBG] Opening connection to database '' on server ''.
+2025-05-26 14:50:51.564 +03:00 [DBG] An error occurred using the connection to database '' on server ''.
+2025-05-26 14:50:51.567 +03:00 [DBG] 'AppDbContext' disposed.
+2025-05-26 14:50:51.568 +03:00 [DBG] Disposing connection to database '' on server ''.
+2025-05-26 14:50:51.571 +03:00 [DBG] Disposed connection to database '' on server '' (0ms).
+2025-05-26 14:52:01.226 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-05-26 14:52:01.538 +03:00 [DBG] Entity Framework Core 9.0.5 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.5' with options: EngineType=SqlServer 
+2025-05-26 14:52:01.738 +03:00 [DBG] 'AppDbContext' disposed.
+2025-05-26 14:52:10.365 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-05-26 14:52:10.639 +03:00 [DBG] Entity Framework Core 9.0.5 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.5' with options: EngineType=SqlServer 
+2025-05-26 14:52:10.701 +03:00 [DBG] Creating DbConnection.
+2025-05-26 14:52:10.709 +03:00 [DBG] Created DbConnection. (6ms).
+2025-05-26 14:52:10.711 +03:00 [DBG] Migrating using database '' on server ''.
+2025-05-26 14:52:10.714 +03:00 [DBG] Opening connection to database '' on server ''.
+2025-05-26 14:52:10.746 +03:00 [DBG] An error occurred using the connection to database '' on server ''.
+2025-05-26 14:52:10.749 +03:00 [DBG] 'AppDbContext' disposed.
+2025-05-26 14:52:10.751 +03:00 [DBG] Disposing connection to database '' on server ''.
+2025-05-26 14:52:10.754 +03:00 [DBG] Disposed connection to database '' on server '' (0ms).
+2025-05-26 14:55:16.240 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-05-26 14:55:16.607 +03:00 [DBG] Entity Framework Core 9.0.5 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.5' with options: EngineType=SqlServer 
+2025-05-26 14:55:16.861 +03:00 [DBG] 'AppDbContext' disposed.
+2025-05-26 14:56:27.731 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-05-26 14:56:28.114 +03:00 [DBG] Entity Framework Core 9.0.5 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.5' with options: EngineType=SqlServer 
+2025-05-26 14:56:28.479 +03:00 [DBG] 'AppDbContext' disposed.
+2025-05-26 14:57:08.091 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-05-26 14:57:08.407 +03:00 [DBG] Entity Framework Core 9.0.5 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.5' with options: EngineType=SqlServer 
+2025-05-26 14:57:08.475 +03:00 [DBG] Creating DbConnection.
+2025-05-26 14:57:08.482 +03:00 [DBG] Created DbConnection. (5ms).
+2025-05-26 14:57:08.484 +03:00 [DBG] Migrating using database '' on server ''.
+2025-05-26 14:57:08.487 +03:00 [DBG] Opening connection to database '' on server ''.
+2025-05-26 14:57:08.519 +03:00 [DBG] An error occurred using the connection to database '' on server ''.
+2025-05-26 14:57:08.522 +03:00 [DBG] 'AppDbContext' disposed.
+2025-05-26 14:57:08.524 +03:00 [DBG] Disposing connection to database '' on server ''.
+2025-05-26 14:57:08.526 +03:00 [DBG] Disposed connection to database '' on server '' (0ms).
+2025-05-26 14:59:40.014 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-05-26 14:59:40.303 +03:00 [DBG] Entity Framework Core 9.0.5 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.5' with options: EngineType=SqlServer 
+2025-05-26 14:59:40.366 +03:00 [DBG] Creating DbConnection.
+2025-05-26 14:59:40.388 +03:00 [DBG] Created DbConnection. (20ms).
+2025-05-26 14:59:40.390 +03:00 [DBG] Migrating using database 'ProjectDB' on server 'DESKTOP-SSNMLFD'.
+2025-05-26 14:59:40.393 +03:00 [DBG] Opening connection to database 'ProjectDB' on server 'DESKTOP-SSNMLFD'.
+2025-05-26 14:59:40.525 +03:00 [DBG] An error occurred using the connection to database 'ProjectDB' on server 'DESKTOP-SSNMLFD'.
+2025-05-26 14:59:40.528 +03:00 [DBG] 'AppDbContext' disposed.
+2025-05-26 14:59:40.529 +03:00 [DBG] Disposing connection to database 'ProjectDB' on server 'DESKTOP-SSNMLFD'.
+2025-05-26 14:59:40.532 +03:00 [DBG] Disposed connection to database '' on server '' (0ms).
+2025-05-26 15:00:55.880 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-05-26 15:00:56.172 +03:00 [DBG] Entity Framework Core 9.0.5 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.5' with options: EngineType=SqlServer 
+2025-05-26 15:00:56.242 +03:00 [DBG] Creating DbConnection.
+2025-05-26 15:00:56.259 +03:00 [DBG] Created DbConnection. (16ms).
+2025-05-26 15:00:56.261 +03:00 [DBG] Migrating using database 'ProjectDB' on server 'DESKTOP-SSNMLFD'.
+2025-05-26 15:00:56.264 +03:00 [DBG] Opening connection to database 'ProjectDB' on server 'DESKTOP-SSNMLFD'.
+2025-05-26 15:00:56.424 +03:00 [DBG] An error occurred using the connection to database 'ProjectDB' on server 'DESKTOP-SSNMLFD'.
+2025-05-26 15:00:56.454 +03:00 [DBG] Creating DbConnection.
+2025-05-26 15:00:56.454 +03:00 [DBG] Created DbConnection. (0ms).
+2025-05-26 15:00:56.454 +03:00 [DBG] Opening connection to database 'master' on server 'DESKTOP-SSNMLFD'.
+2025-05-26 15:00:56.469 +03:00 [DBG] Opened connection to database 'master' on server 'DESKTOP-SSNMLFD'.
+2025-05-26 15:00:56.473 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-05-26 15:00:56.478 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (4ms).
+2025-05-26 15:00:56.480 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (8ms).
+2025-05-26 15:00:56.483 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [ProjectDB];
+2025-05-26 15:00:56.939 +03:00 [INF] Executed DbCommand (454ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [ProjectDB];
+2025-05-26 15:00:56.940 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-05-26 15:00:56.940 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-05-26 15:00:56.940 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2025-05-26 15:00:56.940 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [ProjectDB] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2025-05-26 15:00:57.166 +03:00 [INF] Executed DbCommand (226ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [ProjectDB] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2025-05-26 15:00:57.167 +03:00 [DBG] Closing connection to database 'master' on server 'DESKTOP-SSNMLFD'.
+2025-05-26 15:00:57.173 +03:00 [DBG] Closed connection to database 'master' on server 'DESKTOP-SSNMLFD' (3ms).
+2025-05-26 15:00:57.174 +03:00 [DBG] Disposing connection to database 'master' on server 'DESKTOP-SSNMLFD'.
+2025-05-26 15:00:57.175 +03:00 [DBG] Disposed connection to database '' on server '' (0ms).
+2025-05-26 15:00:57.175 +03:00 [DBG] Opening connection to database 'ProjectDB' on server 'DESKTOP-SSNMLFD'.
+2025-05-26 15:00:57.183 +03:00 [DBG] Opened connection to database 'ProjectDB' on server 'DESKTOP-SSNMLFD'.
+2025-05-26 15:00:57.184 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-05-26 15:00:57.184 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-05-26 15:00:57.184 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2025-05-26 15:00:57.184 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-05-26 15:00:57.192 +03:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-05-26 15:00:57.192 +03:00 [DBG] Closing connection to database 'ProjectDB' on server 'DESKTOP-SSNMLFD'.
+2025-05-26 15:00:57.192 +03:00 [DBG] Closed connection to database 'ProjectDB' on server 'DESKTOP-SSNMLFD' (0ms).
+2025-05-26 15:00:57.192 +03:00 [DBG] Opening connection to database 'ProjectDB' on server 'DESKTOP-SSNMLFD'.
+2025-05-26 15:00:57.193 +03:00 [DBG] Opened connection to database 'ProjectDB' on server 'DESKTOP-SSNMLFD'.
+2025-05-26 15:00:57.193 +03:00 [INF] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+2025-05-26 15:00:57.194 +03:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2025-05-26 15:00:57.194 +03:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2025-05-26 15:00:57.194 +03:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2025-05-26 15:00:57.195 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_getapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session', @LockMode = 'Exclusive';
+SELECT @result
+2025-05-26 15:00:57.227 +03:00 [INF] Executed DbCommand (33ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_getapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session', @LockMode = 'Exclusive';
+SELECT @result
+2025-05-26 15:00:57.256 +03:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2025-05-26 15:00:57.259 +03:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2025-05-26 15:00:57.259 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-05-26 15:00:57.259 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-05-26 15:00:57.260 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2025-05-26 15:00:57.260 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF OBJECT_ID(N'[__EFMigrationsHistory]') IS NULL
+BEGIN
+    CREATE TABLE [__EFMigrationsHistory] (
+        [MigrationId] nvarchar(150) NOT NULL,
+        [ProductVersion] nvarchar(32) NOT NULL,
+        CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+    );
+END;
+2025-05-26 15:00:57.279 +03:00 [INF] Executed DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF OBJECT_ID(N'[__EFMigrationsHistory]') IS NULL
+BEGIN
+    CREATE TABLE [__EFMigrationsHistory] (
+        [MigrationId] nvarchar(150) NOT NULL,
+        [ProductVersion] nvarchar(32) NOT NULL,
+        CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+    );
+END;
+2025-05-26 15:00:57.280 +03:00 [DBG] Committing transaction.
+2025-05-26 15:00:57.283 +03:00 [DBG] Committed transaction.
+2025-05-26 15:00:57.283 +03:00 [DBG] Disposing transaction.
+2025-05-26 15:00:57.284 +03:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2025-05-26 15:00:57.285 +03:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2025-05-26 15:00:57.285 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-05-26 15:00:57.285 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-05-26 15:00:57.285 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2025-05-26 15:00:57.285 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-05-26 15:00:57.286 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-05-26 15:00:57.287 +03:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2025-05-26 15:00:57.287 +03:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2025-05-26 15:00:57.287 +03:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2025-05-26 15:00:57.287 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-05-26 15:00:57.287 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-05-26 15:00:57.288 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-05-26 15:00:57.288 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-05-26 15:00:57.288 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2025-05-26 15:00:57.289 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-05-26 15:00:57.305 +03:00 [INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-05-26 15:00:57.307 +03:00 [DBG] Closing data reader to 'ProjectDB' on server 'DESKTOP-SSNMLFD'.
+2025-05-26 15:00:57.308 +03:00 [DBG] A data reader for 'ProjectDB' on server 'DESKTOP-SSNMLFD' is being disposed after spending 1ms reading results.
+2025-05-26 15:00:57.311 +03:00 [INF] Applying migration '20250526115032_InitialCreate'.
+2025-05-26 15:00:57.319 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-05-26 15:00:57.319 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-05-26 15:00:57.319 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2025-05-26 15:00:57.319 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Authors] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(max) NOT NULL,
+    [Password] nvarchar(max) NOT NULL,
+    [role] int NOT NULL,
+    [Address] nvarchar(max) NULL,
+    [BirthDate] date NOT NULL,
+    CONSTRAINT [PK_Authors] PRIMARY KEY ([Id])
+);
+2025-05-26 15:00:57.326 +03:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Authors] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(max) NOT NULL,
+    [Password] nvarchar(max) NOT NULL,
+    [role] int NOT NULL,
+    [Address] nvarchar(max) NULL,
+    [BirthDate] date NOT NULL,
+    CONSTRAINT [PK_Authors] PRIMARY KEY ([Id])
+);
+2025-05-26 15:00:57.326 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-05-26 15:00:57.326 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-05-26 15:00:57.326 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2025-05-26 15:00:57.326 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Books] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(max) NULL,
+    [Author] nvarchar(max) NULL,
+    [AuthorId] int NOT NULL,
+    [Price] float NOT NULL,
+    [Date] date NOT NULL,
+    CONSTRAINT [PK_Books] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Books_Authors_AuthorId] FOREIGN KEY ([AuthorId]) REFERENCES [Authors] ([Id]) ON DELETE CASCADE
+);
+2025-05-26 15:00:57.332 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Books] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(max) NULL,
+    [Author] nvarchar(max) NULL,
+    [AuthorId] int NOT NULL,
+    [Price] float NOT NULL,
+    [Date] date NOT NULL,
+    CONSTRAINT [PK_Books] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Books_Authors_AuthorId] FOREIGN KEY ([AuthorId]) REFERENCES [Authors] ([Id]) ON DELETE CASCADE
+);
+2025-05-26 15:00:57.332 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-05-26 15:00:57.332 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-05-26 15:00:57.332 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2025-05-26 15:00:57.333 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Books_AuthorId] ON [Books] ([AuthorId]);
+2025-05-26 15:00:57.341 +03:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Books_AuthorId] ON [Books] ([AuthorId]);
+2025-05-26 15:00:57.341 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-05-26 15:00:57.341 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-05-26 15:00:57.341 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2025-05-26 15:00:57.341 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20250526115032_InitialCreate', N'9.0.5');
+2025-05-26 15:00:57.349 +03:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20250526115032_InitialCreate', N'9.0.5');
+2025-05-26 15:00:57.349 +03:00 [INF] Applying migration '20250526115628_NewMigrationName'.
+2025-05-26 15:00:57.361 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-05-26 15:00:57.361 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-05-26 15:00:57.361 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2025-05-26 15:00:57.361 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Books] DROP CONSTRAINT [FK_Books_Authors_AuthorId];
+2025-05-26 15:00:57.372 +03:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Books] DROP CONSTRAINT [FK_Books_Authors_AuthorId];
+2025-05-26 15:00:57.372 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-05-26 15:00:57.372 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-05-26 15:00:57.372 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2025-05-26 15:00:57.372 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @var sysname;
+SELECT @var = [d].[name]
+FROM [sys].[default_constraints] [d]
+INNER JOIN [sys].[columns] [c] ON [d].[parent_column_id] = [c].[column_id] AND [d].[parent_object_id] = [c].[object_id]
+WHERE ([d].[parent_object_id] = OBJECT_ID(N'[Books]') AND [c].[name] = N'Author');
+IF @var IS NOT NULL EXEC(N'ALTER TABLE [Books] DROP CONSTRAINT [' + @var + '];');
+ALTER TABLE [Books] DROP COLUMN [Author];
+2025-05-26 15:00:57.466 +03:00 [INF] Executed DbCommand (94ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @var sysname;
+SELECT @var = [d].[name]
+FROM [sys].[default_constraints] [d]
+INNER JOIN [sys].[columns] [c] ON [d].[parent_column_id] = [c].[column_id] AND [d].[parent_object_id] = [c].[object_id]
+WHERE ([d].[parent_object_id] = OBJECT_ID(N'[Books]') AND [c].[name] = N'Author');
+IF @var IS NOT NULL EXEC(N'ALTER TABLE [Books] DROP CONSTRAINT [' + @var + '];');
+ALTER TABLE [Books] DROP COLUMN [Author];
+2025-05-26 15:00:57.466 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-05-26 15:00:57.466 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-05-26 15:00:57.466 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2025-05-26 15:00:57.466 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+EXEC sp_rename N'[Authors].[role]', N'Role', 'COLUMN';
+2025-05-26 15:00:57.940 +03:00 [INF] Executed DbCommand (474ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+EXEC sp_rename N'[Authors].[role]', N'Role', 'COLUMN';
+2025-05-26 15:00:57.940 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-05-26 15:00:57.940 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-05-26 15:00:57.940 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2025-05-26 15:00:57.940 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @var1 sysname;
+SELECT @var1 = [d].[name]
+FROM [sys].[default_constraints] [d]
+INNER JOIN [sys].[columns] [c] ON [d].[parent_column_id] = [c].[column_id] AND [d].[parent_object_id] = [c].[object_id]
+WHERE ([d].[parent_object_id] = OBJECT_ID(N'[Books]') AND [c].[name] = N'Name');
+IF @var1 IS NOT NULL EXEC(N'ALTER TABLE [Books] DROP CONSTRAINT [' + @var1 + '];');
+UPDATE [Books] SET [Name] = N'' WHERE [Name] IS NULL;
+ALTER TABLE [Books] ALTER COLUMN [Name] nvarchar(200) NOT NULL;
+ALTER TABLE [Books] ADD DEFAULT N'' FOR [Name];
+2025-05-26 15:00:57.983 +03:00 [INF] Executed DbCommand (43ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @var1 sysname;
+SELECT @var1 = [d].[name]
+FROM [sys].[default_constraints] [d]
+INNER JOIN [sys].[columns] [c] ON [d].[parent_column_id] = [c].[column_id] AND [d].[parent_object_id] = [c].[object_id]
+WHERE ([d].[parent_object_id] = OBJECT_ID(N'[Books]') AND [c].[name] = N'Name');
+IF @var1 IS NOT NULL EXEC(N'ALTER TABLE [Books] DROP CONSTRAINT [' + @var1 + '];');
+UPDATE [Books] SET [Name] = N'' WHERE [Name] IS NULL;
+ALTER TABLE [Books] ALTER COLUMN [Name] nvarchar(200) NOT NULL;
+ALTER TABLE [Books] ADD DEFAULT N'' FOR [Name];
+2025-05-26 15:00:57.983 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-05-26 15:00:57.984 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-05-26 15:00:57.984 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2025-05-26 15:00:57.984 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @var2 sysname;
+SELECT @var2 = [d].[name]
+FROM [sys].[default_constraints] [d]
+INNER JOIN [sys].[columns] [c] ON [d].[parent_column_id] = [c].[column_id] AND [d].[parent_object_id] = [c].[object_id]
+WHERE ([d].[parent_object_id] = OBJECT_ID(N'[Authors]') AND [c].[name] = N'Name');
+IF @var2 IS NOT NULL EXEC(N'ALTER TABLE [Authors] DROP CONSTRAINT [' + @var2 + '];');
+ALTER TABLE [Authors] ALTER COLUMN [Name] nvarchar(100) NOT NULL;
+2025-05-26 15:00:58.013 +03:00 [INF] Executed DbCommand (29ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @var2 sysname;
+SELECT @var2 = [d].[name]
+FROM [sys].[default_constraints] [d]
+INNER JOIN [sys].[columns] [c] ON [d].[parent_column_id] = [c].[column_id] AND [d].[parent_object_id] = [c].[object_id]
+WHERE ([d].[parent_object_id] = OBJECT_ID(N'[Authors]') AND [c].[name] = N'Name');
+IF @var2 IS NOT NULL EXEC(N'ALTER TABLE [Authors] DROP CONSTRAINT [' + @var2 + '];');
+ALTER TABLE [Authors] ALTER COLUMN [Name] nvarchar(100) NOT NULL;
+2025-05-26 15:00:58.013 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-05-26 15:00:58.013 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-05-26 15:00:58.013 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2025-05-26 15:00:58.013 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Author] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(max) NOT NULL,
+    [Password] nvarchar(max) NOT NULL,
+    [role] int NOT NULL,
+    [Address] nvarchar(max) NULL,
+    [BirthDate] date NOT NULL,
+    CONSTRAINT [PK_Author] PRIMARY KEY ([Id])
+);
+2025-05-26 15:00:58.016 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Author] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(max) NOT NULL,
+    [Password] nvarchar(max) NOT NULL,
+    [role] int NOT NULL,
+    [Address] nvarchar(max) NULL,
+    [BirthDate] date NOT NULL,
+    CONSTRAINT [PK_Author] PRIMARY KEY ([Id])
+);
+2025-05-26 15:00:58.016 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-05-26 15:00:58.016 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-05-26 15:00:58.016 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2025-05-26 15:00:58.016 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Book] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(max) NULL,
+    [Author] nvarchar(max) NULL,
+    [AuthorId] int NOT NULL,
+    [Price] float NOT NULL,
+    [Date] date NOT NULL,
+    CONSTRAINT [PK_Book] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Book_Author_AuthorId] FOREIGN KEY ([AuthorId]) REFERENCES [Author] ([Id]) ON DELETE CASCADE
+);
+2025-05-26 15:00:58.019 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Book] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(max) NULL,
+    [Author] nvarchar(max) NULL,
+    [AuthorId] int NOT NULL,
+    [Price] float NOT NULL,
+    [Date] date NOT NULL,
+    CONSTRAINT [PK_Book] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Book_Author_AuthorId] FOREIGN KEY ([AuthorId]) REFERENCES [Author] ([Id]) ON DELETE CASCADE
+);
+2025-05-26 15:00:58.020 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-05-26 15:00:58.020 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-05-26 15:00:58.020 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2025-05-26 15:00:58.020 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Book_AuthorId] ON [Book] ([AuthorId]);
+2025-05-26 15:00:58.022 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Book_AuthorId] ON [Book] ([AuthorId]);
+2025-05-26 15:00:58.022 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-05-26 15:00:58.022 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-05-26 15:00:58.022 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2025-05-26 15:00:58.022 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Books] ADD CONSTRAINT [FK_Books_Author_AuthorId] FOREIGN KEY ([AuthorId]) REFERENCES [Author] ([Id]) ON DELETE CASCADE;
+2025-05-26 15:00:58.025 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Books] ADD CONSTRAINT [FK_Books_Author_AuthorId] FOREIGN KEY ([AuthorId]) REFERENCES [Author] ([Id]) ON DELETE CASCADE;
+2025-05-26 15:00:58.025 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-05-26 15:00:58.025 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-05-26 15:00:58.025 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2025-05-26 15:00:58.025 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20250526115628_NewMigrationName', N'9.0.5');
+2025-05-26 15:00:58.026 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20250526115628_NewMigrationName', N'9.0.5');
+2025-05-26 15:00:58.026 +03:00 [DBG] Committing transaction.
+2025-05-26 15:00:58.027 +03:00 [DBG] Committed transaction.
+2025-05-26 15:00:58.027 +03:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2025-05-26 15:00:58.028 +03:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2025-05-26 15:00:58.028 +03:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2025-05-26 15:00:58.028 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_releaseapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session';
+SELECT @result
+2025-05-26 15:00:58.032 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_releaseapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session';
+SELECT @result
+2025-05-26 15:00:58.032 +03:00 [DBG] Disposing transaction.
+2025-05-26 15:00:58.032 +03:00 [DBG] Closing connection to database 'ProjectDB' on server 'DESKTOP-SSNMLFD'.
+2025-05-26 15:00:58.032 +03:00 [DBG] Closed connection to database 'ProjectDB' on server 'DESKTOP-SSNMLFD' (0ms).
+2025-05-26 15:00:58.033 +03:00 [DBG] 'AppDbContext' disposed.
+2025-05-26 15:00:58.034 +03:00 [DBG] Disposing connection to database 'ProjectDB' on server 'DESKTOP-SSNMLFD'.
+2025-05-26 15:00:58.034 +03:00 [DBG] Disposed connection to database '' on server '' (0ms).
+2025-05-26 15:02:32.878 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-05-26 15:02:33.169 +03:00 [DBG] Entity Framework Core 9.0.5 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.5' with options: EngineType=SqlServer 
+2025-05-26 15:02:33.240 +03:00 [DBG] 'AppDbContext' disposed.
+2025-05-26 15:03:19.761 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-05-26 15:03:20.084 +03:00 [DBG] Entity Framework Core 9.0.5 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.5' with options: EngineType=SqlServer 
+2025-05-26 15:03:20.430 +03:00 [DBG] 'AppDbContext' disposed.
+2025-05-26 15:03:38.499 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-05-26 15:03:38.802 +03:00 [DBG] Entity Framework Core 9.0.5 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.5' with options: EngineType=SqlServer 
+2025-05-26 15:03:38.868 +03:00 [DBG] Creating DbConnection.
+2025-05-26 15:03:38.885 +03:00 [DBG] Created DbConnection. (16ms).
+2025-05-26 15:03:38.887 +03:00 [DBG] Migrating using database 'ProjectDB' on server 'DESKTOP-SSNMLFD'.
+2025-05-26 15:03:38.889 +03:00 [DBG] Opening connection to database 'ProjectDB' on server 'DESKTOP-SSNMLFD'.
+2025-05-26 15:03:39.015 +03:00 [DBG] Opened connection to database 'ProjectDB' on server 'DESKTOP-SSNMLFD'.
+2025-05-26 15:03:39.018 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-05-26 15:03:39.021 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (2ms).
+2025-05-26 15:03:39.022 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (5ms).
+2025-05-26 15:03:39.025 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-05-26 15:03:39.038 +03:00 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-05-26 15:03:39.039 +03:00 [DBG] Closing connection to database 'ProjectDB' on server 'DESKTOP-SSNMLFD'.
+2025-05-26 15:03:39.043 +03:00 [DBG] Closed connection to database 'ProjectDB' on server 'DESKTOP-SSNMLFD' (2ms).
+2025-05-26 15:03:39.043 +03:00 [DBG] Opening connection to database 'ProjectDB' on server 'DESKTOP-SSNMLFD'.
+2025-05-26 15:03:39.044 +03:00 [DBG] Opened connection to database 'ProjectDB' on server 'DESKTOP-SSNMLFD'.
+2025-05-26 15:03:39.044 +03:00 [INF] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+2025-05-26 15:03:39.045 +03:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2025-05-26 15:03:39.045 +03:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2025-05-26 15:03:39.045 +03:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2025-05-26 15:03:39.045 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_getapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session', @LockMode = 'Exclusive';
+SELECT @result
+2025-05-26 15:03:39.072 +03:00 [INF] Executed DbCommand (27ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_getapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session', @LockMode = 'Exclusive';
+SELECT @result
+2025-05-26 15:03:39.101 +03:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2025-05-26 15:03:39.104 +03:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2025-05-26 15:03:39.104 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-05-26 15:03:39.104 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-05-26 15:03:39.105 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2025-05-26 15:03:39.105 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF OBJECT_ID(N'[__EFMigrationsHistory]') IS NULL
+BEGIN
+    CREATE TABLE [__EFMigrationsHistory] (
+        [MigrationId] nvarchar(150) NOT NULL,
+        [ProductVersion] nvarchar(32) NOT NULL,
+        CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+    );
+END;
+2025-05-26 15:03:39.110 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF OBJECT_ID(N'[__EFMigrationsHistory]') IS NULL
+BEGIN
+    CREATE TABLE [__EFMigrationsHistory] (
+        [MigrationId] nvarchar(150) NOT NULL,
+        [ProductVersion] nvarchar(32) NOT NULL,
+        CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+    );
+END;
+2025-05-26 15:03:39.111 +03:00 [DBG] Committing transaction.
+2025-05-26 15:03:39.113 +03:00 [DBG] Committed transaction.
+2025-05-26 15:03:39.113 +03:00 [DBG] Disposing transaction.
+2025-05-26 15:03:39.114 +03:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2025-05-26 15:03:39.115 +03:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2025-05-26 15:03:39.115 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-05-26 15:03:39.115 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-05-26 15:03:39.115 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2025-05-26 15:03:39.115 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-05-26 15:03:39.116 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-05-26 15:03:39.116 +03:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2025-05-26 15:03:39.116 +03:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2025-05-26 15:03:39.116 +03:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2025-05-26 15:03:39.116 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-05-26 15:03:39.116 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-05-26 15:03:39.117 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-05-26 15:03:39.117 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-05-26 15:03:39.117 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2025-05-26 15:03:39.117 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-05-26 15:03:39.126 +03:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-05-26 15:03:39.128 +03:00 [DBG] Closing data reader to 'ProjectDB' on server 'DESKTOP-SSNMLFD'.
+2025-05-26 15:03:39.128 +03:00 [DBG] A data reader for 'ProjectDB' on server 'DESKTOP-SSNMLFD' is being disposed after spending 1ms reading results.
+2025-05-26 15:03:39.131 +03:00 [INF] Applying migration '20250526120320_UpdateSchema'.
+2025-05-26 15:03:39.135 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-05-26 15:03:39.135 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-05-26 15:03:39.135 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2025-05-26 15:03:39.135 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DROP TABLE [Book];
+2025-05-26 15:03:39.146 +03:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DROP TABLE [Book];
+2025-05-26 15:03:39.146 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-05-26 15:03:39.147 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-05-26 15:03:39.147 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2025-05-26 15:03:39.147 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Books] ADD CONSTRAINT [FK_Books_Authors_AuthorId] FOREIGN KEY ([AuthorId]) REFERENCES [Authors] ([Id]) ON DELETE CASCADE;
+2025-05-26 15:03:39.150 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Books] ADD CONSTRAINT [FK_Books_Authors_AuthorId] FOREIGN KEY ([AuthorId]) REFERENCES [Authors] ([Id]) ON DELETE CASCADE;
+2025-05-26 15:03:39.150 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-05-26 15:03:39.150 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-05-26 15:03:39.150 +03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2025-05-26 15:03:39.150 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20250526120320_UpdateSchema', N'9.0.5');
+2025-05-26 15:03:39.153 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20250526120320_UpdateSchema', N'9.0.5');
+2025-05-26 15:03:39.153 +03:00 [DBG] Committing transaction.
+2025-05-26 15:03:39.155 +03:00 [DBG] Committed transaction.
+2025-05-26 15:03:39.155 +03:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2025-05-26 15:03:39.155 +03:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2025-05-26 15:03:39.155 +03:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2025-05-26 15:03:39.155 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_releaseapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session';
+SELECT @result
+2025-05-26 15:03:39.160 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_releaseapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session';
+SELECT @result
+2025-05-26 15:03:39.160 +03:00 [DBG] Disposing transaction.
+2025-05-26 15:03:39.160 +03:00 [DBG] Closing connection to database 'ProjectDB' on server 'DESKTOP-SSNMLFD'.
+2025-05-26 15:03:39.160 +03:00 [DBG] Closed connection to database 'ProjectDB' on server 'DESKTOP-SSNMLFD' (0ms).
+2025-05-26 15:03:39.161 +03:00 [DBG] 'AppDbContext' disposed.
+2025-05-26 15:03:39.162 +03:00 [DBG] Disposing connection to database 'ProjectDB' on server 'DESKTOP-SSNMLFD'.
+2025-05-26 15:03:39.162 +03:00 [DBG] Disposed connection to database '' on server '' (0ms).
+2025-05-26 15:06:15.730 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-05-26 15:06:16.040 +03:00 [DBG] Entity Framework Core 9.0.5 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.5' with options: EngineType=SqlServer 
+2025-05-26 15:06:16.043 +03:00 [DBG] Creating DbConnection.
+2025-05-26 15:06:16.062 +03:00 [DBG] Created DbConnection. (17ms).
+2025-05-26 15:06:16.065 +03:00 [DBG] 'AppDbContext' disposed.
+2025-05-26 15:06:16.070 +03:00 [DBG] Disposing connection to database 'ProjectDB' on server 'DESKTOP-SSNMLFD'.
+2025-05-26 15:06:16.072 +03:00 [DBG] Disposed connection to database '' on server '' (2ms).

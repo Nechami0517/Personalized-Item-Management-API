@@ -13,24 +13,24 @@ namespace project.Controllers;
 [Route("[controller]")]
 public class BookController : ControllerBase
 {
-    private readonly IServiceItems<Book> service;
+    private readonly IServiceItems<BookDb> service;
   
 
-    public BookController(IServiceItems<Book> service)
+    public BookController(IServiceItems<BookDb> service)
     {
        System.Console.WriteLine("BookController constructor called");
         this.service = service;
     }
 
     [HttpGet]
-    public ActionResult<IEnumerable<Book>> Get()
+    public ActionResult<IEnumerable<BookDb>> Get()
     {
         System.Console.WriteLine("BookController Get method called");
          return service.Get();
     }
 
     [HttpGet("{id}")]
-    public ActionResult<Book> Get(int id)
+    public ActionResult<BookDb> Get(int id)
     {
         try
         {
@@ -44,7 +44,7 @@ public class BookController : ControllerBase
     }
 
     [HttpPost]
-    public ActionResult Post(Book newBook)
+    public ActionResult Post(BookDb newBook)
     {
         var result = service.Insert(newBook);
         if (result == -1)
@@ -59,7 +59,7 @@ public class BookController : ControllerBase
     }
 
     [HttpPut("{id}")]
-    public ActionResult Put(int id, Book book)
+    public ActionResult Put(int id, BookDb book)
     {
         var result = service.Update(id, book);
         
