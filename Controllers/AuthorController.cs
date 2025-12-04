@@ -10,10 +10,10 @@ namespace project.Controllers;
 [Route("[controller]")]
 public class AuthorController : ControllerBase
 {
-    private readonly IService<Author> service;
-    private readonly IServiceItems<Book> BookService;
+    private readonly IService<AuthorDb> service;
+    private readonly IServiceItems<BookDb> BookService;
 
-    public AuthorController(IService<Author> service,IServiceItems<Book> BookService)
+    public AuthorController(IService<AuthorDb> service,IServiceItems<BookDb> BookService)
     {
         this.service = service;
         this.BookService = BookService;
@@ -22,7 +22,7 @@ public class AuthorController : ControllerBase
 
     [HttpGet]
     [Authorize(policy: "Author")]
-    public ActionResult<IEnumerable<Author>> Get()
+    public ActionResult<IEnumerable<AuthorDb>> Get()
     {
         var authors = service.Get();
         if (authors == null)
@@ -34,7 +34,7 @@ public class AuthorController : ControllerBase
 
     [HttpGet("{id}")]
     [Authorize(policy: "Admin")]
-    public ActionResult<Author> Get(int id)
+    public ActionResult<AuthorDb> Get(int id)
     {
         var author = service.Get(id);
         if (author == null)
@@ -44,7 +44,7 @@ public class AuthorController : ControllerBase
 
     [HttpPost]
     [Authorize(policy: "Admin")]
-    public ActionResult Post(Author newUser)
+    public ActionResult Post(AuthorDb newUser)
     {
         var newId = service.Insert(newUser);
         if (newId == -1)
@@ -56,7 +56,7 @@ public class AuthorController : ControllerBase
 
     [HttpPut("{id}")]
     [Authorize(policy: "Author")]
-    public ActionResult Put(int id, Author author)
+    public ActionResult Put(int id, AuthorDb author)
     {
         var result = service.Update(id, author);
         if (!result)

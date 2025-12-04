@@ -362,7 +362,7 @@ function _displayItems(data) {
         let tr = tBody.insertRow();
 
         let td1 = tr.insertCell(0);
-        td1.appendChild(document.createTextNode(item.author));
+        td1.appendChild(document.createTextNode(item.authorId));
 
         let td2 = tr.insertCell(1);
         td2.appendChild(document.createTextNode(item.name));
